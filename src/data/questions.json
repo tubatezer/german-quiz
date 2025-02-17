@@ -1,0 +1,17 @@
+{
+    "grammar": [
+      {
+        "question": "Ergänzen Sie das Perfekt: 'Ich ___ gestern ins Kino _____.'",
+        "options": ["bin gegangen", "habe gegangen", "bin gegehen", "habe gehen"],
+        "correctAnswer": "bin gegangen",
+        "explanation": "Gehen uses 'sein' as its auxiliary verb in perfect tense."
+      },
+      {
+        "question": "Welche Form passt? 'Nachdem ich ___ ___, bin ich zur Arbeit gefahren.'",
+        "options": ["gefrühstückt hatte", "frühstücke", "frühstückte", "gefrühstückt habe"],
+        "correctAnswer": "gefrühstückt hatte",
+        "explanation": "Plusquamperfekt wird für Handlungen verwendet, die vor einer anderen Vergangenheit stattfanden."
+      }
+    ]
+  }
+  
