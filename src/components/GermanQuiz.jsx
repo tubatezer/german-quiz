@@ -1,67 +1,252 @@
 "use client";
 import React, { useState } from 'react';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { AlertCircle, CheckCircle, ArrowLeft, ArrowRight, List, BookOpen, Bookmark, X } from 'lucide-react';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import questions from '@/data/questions.json';
 
-export default function GermanQuiz() {
+const GermanQuiz = () => {
+  const categories = {
+    grammar: "Grammatik",
+    vocabulary: "Wortschatz",
+    expressions: "Redewendungen",
+    situations: "Alltagssituationen",
+    reading: "Leseverstehen"
+  };
+
+  const [currentCategory, setCurrentCategory] = useState('grammar');
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [score, setScore] = useState(0);
+  const [userAnswers, setUserAnswers] = useState({});
   const [showResult, setShowResult] = useState(false);
+  const [score, setScore] = useState(0);
+  const [showQuestionList, setShowQuestionList] = useState(false);
+  const [bookmarkedQuestions, setBookmarkedQuestions] = useState({});
+  const [studyMode, setStudyMode] = useState('quiz');
 
-  const category = 'grammar'; // We'll start with grammar questions
-  const currentQuestions = questions[category];
+  const currentQuestions = questions[currentCategory];
 
-  const handleAnswer = (answer) => {
-    if (answer === currentQuestions[currentQuestion].correctAnswer) {
+  const handleAnswerSelect = (answer) => {
+    const newUserAnswers = {
+      ...userAnswers,
+      [`${currentCategory}-${currentQuestion}`]: answer
+    };
+    setUserAnswers(newUserAnswers);
+    setShowResult(true);
+    
+    if (!userAnswers[`${currentCategory}-${currentQuestion}`] && 
+        answer === currentQuestions[currentQuestion].correctAnswer) {
       setScore(score + 1);
     }
-    setShowResult(true);
   };
 
-  const nextQuestion = () => {
-    setShowResult(false);
-    if (currentQuestion < currentQuestions.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
+  const goToPrevious = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(prev => prev - 1);
+      setShowResult(userAnswers[`${currentCategory}-${currentQuestion - 1}`] !== undefined);
     }
   };
 
-  return (
-    <div className="max-w-2xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">German B1 Quiz</h1>
-      
-      <div className="bg-white rounded-lg shadow p-6">
-        <p className="text-lg mb-4">{currentQuestions[currentQuestion].question}</p>
+  const goToNext = () => {
+    if (currentQuestion < currentQuestions.length - 1) {
+      setCurrentQuestion(prev => prev + 1);
+      setShowResult(userAnswers[`${currentCategory}-${currentQuestion + 1}`] !== undefined);
+    }
+  };
+
+  const handleFinishTest = () => {
+    console.log("Test completed with score:", score);
+  };
+
+  const resetQuiz = () => {
+    setCurrentQuestion(0);
+    setUserAnswers({});
+    setShowResult(false);
+    setScore(0);
+  };
+
+  const handleCategoryChange = (category) => {
+    setCurrentCategory(category);
+    resetQuiz();
+  };
+
+  const toggleBookmark = () => {
+    setBookmarkedQuestions({
+      ...bookmarkedQuestions,
+      [`${currentCategory}-${currentQuestion}`]: !bookmarkedQuestions[`${currentCategory}-${currentQuestion}`]
+    });
+  };
+
+  const QuestionList = () => (
+    <div className="fixed inset-0 bg-white z-50 overflow-auto p-4">
+      <div className="max-w-2xl mx-auto">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-xl font-bold">Question Overview</h2>
+          <Button variant="ghost" onClick={() => setShowQuestionList(false)}>
+            <X className="h-6 w-6" />
+          </Button>
+        </div>
         
-        <div className="space-y-2">
-          {currentQuestions[currentQuestion].options.map((option, index) => (
-            <button
-              key={index}
-              onClick={() => handleAnswer(option)}
-              disabled={showResult}
-              className="w-full p-3 text-left rounded border hover:bg-gray-100 disabled:opacity-50"
-            >
-              {option}
-            </button>
-          ))}
-        </div>
-
-        {showResult && (
-          <div className="mt-4">
-            <p className="font-bold">
-              {currentQuestions[currentQuestion].explanation}
-            </p>
-            <button
-              onClick={nextQuestion}
-              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-            >
-              Next Question
-            </button>
+        {Object.entries(categories).map(([catKey, catName]) => (
+          <div key={catKey} className="mb-6">
+            <h3 className="text-lg font-semibold mb-2">{catName}</h3>
+            <div className="grid grid-cols-1 gap-2">
+              {questions[catKey]?.map((q, idx) => (
+                <Button
+                  key={idx}
+                  variant="outline"
+                  className={`text-left justify-start h-auto py-2 ${
+                    userAnswers[`${catKey}-${idx}`] ? 'border-green-500' : ''
+                  } ${bookmarkedQuestions[`${catKey}-${idx}`] ? 'bg-yellow-50' : ''}`}
+                  onClick={() => {
+                    setCurrentCategory(catKey);
+                    setCurrentQuestion(idx);
+                    setShowQuestionList(false);
+                  }}
+                >
+                  <span className="mr-2">{idx + 1}.</span>
+                  <span className="truncate">{q.question.slice(0, 50)}...</span>
+                </Button>
+              ))}
+            </div>
           </div>
-        )}
-
-        <div className="mt-4">
-          Score: {score} / {currentQuestion + 1}
-        </div>
+        ))}
       </div>
     </div>
   );
-}
+
+  return (
+    <Card className="w-full max-w-2xl mx-auto">
+      <CardHeader>
+        <CardTitle className="text-2xl">German B1 Level Quiz</CardTitle>
+        <CardDescription>300 Questions - {categories[currentCategory]}</CardDescription>
+        
+        <div className="flex gap-2 mb-4">
+          <Button
+            variant={studyMode === 'quiz' ? 'default' : 'outline'}
+            onClick={() => setStudyMode('quiz')}
+            className="flex-1"
+          >
+            <BookOpen className="mr-2 h-4 w-4" /> Quiz Mode
+          </Button>
+          <Button
+            variant={studyMode === 'study' ? 'default' : 'outline'}
+            onClick={() => setStudyMode('study')}
+            className="flex-1"
+          >
+            <List className="mr-2 h-4 w-4" /> Study Mode
+          </Button>
+        </div>
+        
+        <div className="flex gap-2 mb-4">
+          <Button 
+            variant="outline" 
+            onClick={() => setShowQuestionList(true)}
+            className="flex-1"
+          >
+            <List className="mr-2 h-4 w-4" /> Show All Questions
+          </Button>
+          <Button 
+            variant="outline" 
+            onClick={toggleBookmark}
+            className={`flex-1 ${bookmarkedQuestions[`${currentCategory}-${currentQuestion}`] ? 'bg-yellow-50' : ''}`}
+          >
+            <Bookmark className="mr-2 h-4 w-4" /> 
+            {bookmarkedQuestions[`${currentCategory}-${currentQuestion}`] ? 'Bookmarked' : 'Bookmark'}
+          </Button>
+        </div>
+
+        <Select value={currentCategory} onValueChange={handleCategoryChange}>
+          <SelectTrigger className="w-full">
+            <SelectValue placeholder="Select category" />
+          </SelectTrigger>
+          <SelectContent>
+            {Object.entries(categories).map(([key, value]) => (
+              <SelectItem key={key} value={key}>{value}</SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-6">
+          <div className="text-lg font-medium flex justify-between items-center">
+            <span>Question {currentQuestion + 1} of {currentQuestions?.length || 0}</span>
+            <span>Score: {score}</span>
+          </div>
+          
+          {currentQuestions && currentQuestions[currentQuestion] && (
+            <>
+              <div className="text-xl mb-4">
+                {currentQuestions[currentQuestion].question}
+              </div>
+
+              <div className="space-y-3">
+                {currentQuestions[currentQuestion].options.map((option, index) => (
+                  <Button
+                    key={index}
+                    onClick={() => !showResult && handleAnswerSelect(option)}
+                    className={`w-full justify-start text-left h-auto py-3 ${
+                      showResult
+                        ? option === currentQuestions[currentQuestion].correctAnswer
+                          ? 'bg-green-500 hover:bg-green-600'
+                          : option === userAnswers[`${currentCategory}-${currentQuestion}`]
+                          ? 'bg-red-500 hover:bg-red-600'
+                          : 'bg-gray-100 hover:bg-gray-200'
+                        : ''
+                    }`}
+                    disabled={showResult}
+                  >
+                    {option}
+                    {showResult && option === currentQuestions[currentQuestion].correctAnswer && (
+                      <CheckCircle className="ml-2 h-5 w-4" />
+                    )}
+                    {showResult && option === userAnswers[`${currentCategory}-${currentQuestion}`] && 
+                     option !== currentQuestions[currentQuestion].correctAnswer && (
+                      <AlertCircle className="ml-2 h-5 w-4" />
+                    )}
+                  </Button>
+                ))}
+              </div>
+
+              {showResult && (
+                <div className="mt-4 space-y-4">
+                  <div className="p-4 bg-gray-100 rounded-lg">
+                    <p className="font-medium">Explanation:</p>
+                    <p>{currentQuestions[currentQuestion].explanation}</p>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          <div className="flex gap-4 mt-4">
+            <Button 
+              onClick={goToPrevious}
+              disabled={currentQuestion === 0}
+              className="flex-1"
+            >
+              <ArrowLeft className="mr-2 h-4 w-4" /> Previous
+            </Button>
+            <Button 
+              onClick={goToNext}
+              disabled={!currentQuestions || currentQuestion === currentQuestions.length - 1}
+              className="flex-1"
+            >
+              Next <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </div>
+
+          <Button 
+            onClick={handleFinishTest}
+            className="w-full mt-4"
+          >
+            Finish Test
+          </Button>
+        </div>
+      </CardContent>
+      {showQuestionList && <QuestionList />}
+    </Card>
+  );
+};
+
+export default GermanQuiz;

@@ -1,17 +1,365 @@
 {
     "grammar": [
-      {
-        "question": "Ergänzen Sie das Perfekt: 'Ich ___ gestern ins Kino _____.'",
-        "options": ["bin gegangen", "habe gegangen", "bin gegehen", "habe gehen"],
-        "correctAnswer": "bin gegangen",
-        "explanation": "Gehen uses 'sein' as its auxiliary verb in perfect tense."
-      },
-      {
-        "question": "Welche Form passt? 'Nachdem ich ___ ___, bin ich zur Arbeit gefahren.'",
-        "options": ["gefrühstückt hatte", "frühstücke", "frühstückte", "gefrühstückt habe"],
-        "correctAnswer": "gefrühstückt hatte",
-        "explanation": "Plusquamperfekt wird für Handlungen verwendet, die vor einer anderen Vergangenheit stattfanden."
-      }
+        {
+            "question": "Ergänzen Sie das Perfekt: 'Ich ___ gestern ins Kino _____.'",
+            "options": ["bin gegangen", "habe gegangen", "bin gegehen", "habe gehen"],
+            "correctAnswer": "bin gegangen",
+            "explanation": "Gehen uses 'sein' as its auxiliary verb in perfect tense."
+          },
+          {
+            "question": "Ergänzen Sie den Satz im Plusquamperfekt: 'Nachdem ich ___ ___, ging ich einkaufen.'",
+            "options": ["gefrühstückt hatte", "habe gefrühstückt", "frühstückte", "hatte frühstücken"],
+            "correctAnswer": "gefrühstückt hatte",
+            "explanation": "Plusquamperfekt uses 'hatte' + Partizip II for actions before another past action."
+          },
+          {
+            "question": "Passiv Präsens: 'Der Kuchen ___ von meiner Mutter _____.'",
+            "options": ["wird gebacken", "ist gebacken", "wurde gebacken", "hat gebacken"],
+            "correctAnswer": "wird gebacken",
+            "explanation": "Present passive is formed with 'werden' + Partizip II."
+          },
+          {
+            "question": "Konjunktiv II: 'Wenn ich mehr Zeit ___, würde ich mehr Sport treiben.'",
+            "options": ["hätte", "habe", "hatte", "haben würde"],
+            "correctAnswer": "hätte",
+            "explanation": "Konjunktiv II of 'haben' is 'hätte' in conditional sentences."
+          },
+          {
+            "question": "Welche Präposition ist richtig? 'Ich freue mich ___ das Geschenk.'",
+            "options": ["über", "auf", "für", "um"],
+            "correctAnswer": "über",
+            "explanation": "The verb 'sich freuen' always takes 'über' + Akkusativ."
+          },
+          {
+            "question": "Ergänzen Sie den Relativsatz: 'Das ist der Mann, ___ Auto gestohlen wurde.'",
+            "options": ["dessen", "deren", "dem", "den"],
+            "correctAnswer": "dessen",
+            "explanation": "For masculine singular possessive relative clauses, use 'dessen'."
+          },
+          {
+            "question": "Wählen Sie die richtige Adjektivendung: 'Das ist ein schön___ Tag.'",
+            "options": ["er", "en", "e", "es"],
+            "correctAnswer": "er",
+            "explanation": "After 'ein' in nominative case, masculine adjectives end in 'er'."
+          },
+          {
+            "question": "Futur I: 'Morgen ___ es regnen.'",
+            "options": ["wird", "ist", "hat", "wurde"],
+            "correctAnswer": "wird",
+            "explanation": "Future tense is formed with 'werden' + infinitive."
+          },
+          {
+            "question": "Welches Modal-Präteritum passt? 'Er ___ gestern nicht kommen.'",
+            "options": ["konnte", "kann", "könnte", "können"],
+            "correctAnswer": "konnte",
+            "explanation": "The past tense of 'können' is 'konnte'."
+          },
+          {
+            "question": "Passiv Präteritum: 'Das Haus ___ letztes Jahr _____.'",
+            "options": ["wurde gebaut", "wird gebaut", "ist gebaut", "hat gebaut"],
+            "correctAnswer": "wurde gebaut",
+            "explanation": "Past passive uses 'wurde' + Partizip II."
+          },
+          {
+            "question": "Ergänzen Sie den Satz mit 'seit/seitdem': '___ ich in Deutschland wohne, spreche ich besser Deutsch.'",
+            "options": ["Seitdem", "Seit", "Als", "Wenn"],
+            "correctAnswer": "Seitdem",
+            "explanation": "'Seitdem' introduces a temporal clause for ongoing situations."
+          },
+          {
+            "question": "Indirekter Fragesatz: 'Er fragt, ___ ich morgen Zeit habe.'",
+            "options": ["ob", "wenn", "wann", "als"],
+            "correctAnswer": "ob",
+            "explanation": "'Ob' introduces indirect yes/no questions."
+          },
+          {
+            "question": "Konjunktiv II der Höflichkeit: '___ Sie mir bitte helfen?'",
+            "options": ["Könnten", "Können", "Konnten", "Können Sie"],
+            "correctAnswer": "Könnten",
+            "explanation": "Konjunktiv II is used for polite requests."
+          },
+          {
+            "question": "Welche Verbform ist richtig? 'Nachdem er den Brief ___, ging er zur Post.'",
+            "options": ["geschrieben hatte", "schrieb", "hat geschrieben", "schreibt"],
+            "correctAnswer": "geschrieben hatte",
+            "explanation": "Use Plusquamperfekt for the earlier of two past actions."
+          },
+          {
+            "question": "Ergänzen Sie die Präposition: 'Ich ärgere mich ___ die Verspätung.'",
+            "options": ["über", "auf", "für", "um"],
+            "correctAnswer": "über",
+            "explanation": "'Sich ärgern' always takes 'über' + Akkusativ."
+          },
+          {
+            "question": "Wählen Sie die korrekte Form: 'Bevor ich zur Arbeit gehe, ___ ich.'",
+            "options": ["frühstücke", "frühstückt", "frühstücken", "frühstückst"],
+            "correctAnswer": "frühstücke",
+            "explanation": "After 'ich', the verb ending is 'e' in present tense."
+          },
+          {
+            "question": "Passiv mit Modalverb: 'Die Hausaufgaben ___ bis morgen ___ ___.'",
+            "options": ["müssen gemacht werden", "müssen werden gemacht", "werden müssen gemacht", "werden gemacht müssen"],
+            "correctAnswer": "müssen gemacht werden",
+            "explanation": "In passive with modal verbs, the word order is: modal + Partizip II + werden"
+          },
+          {
+            "question": "Ergänzen Sie die Konjunktion: '___ es regnet, nehme ich einen Schirm mit.'",
+            "options": ["Wenn", "Als", "Wann", "Ob"],
+            "correctAnswer": "Wenn",
+            "explanation": "'Wenn' is used for conditional or repeated actions."
+          },
+          {
+            "question": "Wählen Sie das richtige Relativpronomen: 'Die Frau, ___ ich gestern getroffen habe, ist Ärztin.'",
+            "options": ["die", "der", "das", "den"],
+            "correctAnswer": "die",
+            "explanation": "For feminine nouns in accusative, use 'die' as relative pronoun."
+          },
+          {
+            "question": "Ergänzen Sie den Satz mit dem richtigen Artikel: '___ Student kommt aus China.'",
+            "options": ["Der", "Die", "Das", "Den"],
+            "correctAnswer": "Der",
+            "explanation": "'Student' is masculine, so it takes 'der' in nominative case."
+          },
+          {
+            "question": "Welche Präposition passt? 'Ich denke oft ___ meine Familie.'",
+            "options": ["an", "über", "von", "für"],
+            "correctAnswer": "an",
+            "explanation": "The verb 'denken' always takes 'an' + Akkusativ."
+          },
+          {
+            "question": "Ergänzen Sie das Modalverb im Präteritum: 'Er ___ gestern nicht arbeiten.'",
+            "options": ["musste", "muss", "müsste", "müssen"],
+            "correctAnswer": "musste",
+            "explanation": "The past tense (Präteritum) of 'müssen' is 'musste'."
+          },
+          {
+            "question": "Wählen Sie die richtige Verbform: 'Nachdem sie ___, ging sie schlafen.'",
+            "options": ["geduscht hatte", "duschte", "hat geduscht", "duscht"],
+            "correctAnswer": "geduscht hatte",
+            "explanation": "Plusquamperfekt is used for the earlier of two past actions."
+          },
+          {
+            "question": "Ergänzen Sie die Adjektivendung: 'Das neu___ Auto ist sehr schnell.'",
+            "options": ["e", "en", "er", "es"],
+            "correctAnswer": "e",
+            "explanation": "After 'das', adjectives take the ending 'e' in nominative case."
+          },
+          {
+            "question": "Welche Form ist korrekt? 'Der Schlüssel ___ gestern verloren.'",
+            "options": ["wurde", "wird", "ist", "hat"],
+            "correctAnswer": "wurde",
+            "explanation": "For past passive, use 'wurde' + Partizip II."
+          },
+          {
+            "question": "Ergänzen Sie den Satz: '___ ich krank war, konnte ich nicht kommen.'",
+            "options": ["Weil", "Denn", "Ob", "Dass"],
+            "correctAnswer": "Weil",
+            "explanation": "'Weil' introduces a subordinate clause explaining the reason."
+          },
+          {
+            "question": "Wählen Sie die richtige Form: 'Ich habe keine Zeit ___ Sport.'",
+            "options": ["für", "zu", "auf", "bei"],
+            "correctAnswer": "für",
+            "explanation": "The expression 'Zeit haben für' requires the preposition 'für'."
+          },
+          {
+            "question": "Konjunktiv II: 'An deiner Stelle ___ ich zum Arzt.'",
+            "options": ["ginge", "gehe", "ging", "gegangen"],
+            "correctAnswer": "ginge",
+            "explanation": "In giving advice using Konjunktiv II, 'gehen' becomes 'ginge'."
+          },
+          {
+            "question": "Ergänzen Sie das Reflexivpronomen: 'Ich freue ___ auf den Urlaub.'",
+            "options": ["mich", "mir", "dich", "sich"],
+            "correctAnswer": "mich",
+            "explanation": "The reflexive verb 'sich freuen' uses 'mich' with 'ich'."
+          },
+          {
+            "question": "Wählen Sie die richtige Verbform: 'Er ___ nächste Woche nach Berlin.'",
+            "options": ["fährt", "fahrt", "fährt", "fahren"],
+            "correctAnswer": "fährt",
+            "explanation": "The verb 'fahren' changes to 'fährt' in third person singular."
+          },
+          {
+            "question": "Passiv mit 'sein': 'Die Tür ___ schon ___.'",
+            "options": ["ist geöffnet", "wird geöffnet", "hat geöffnet", "wurde geöffnet"],
+            "correctAnswer": "ist geöffnet",
+            "explanation": "The state passive uses 'sein' + Partizip II to describe a completed state."
+          },
+          {
+            "question": "Ergänzen Sie den Infinitiv mit 'zu': 'Es ist wichtig, pünktlich ___ ___.'",
+            "options": ["zu sein", "sein zu", "zu haben", "haben zu"],
+            "correctAnswer": "zu sein",
+            "explanation": "With infinitive constructions, 'zu' comes before the verb."
+          },
+          {
+            "question": "Wählen Sie die richtige Präposition: 'Ich warte ___ den Bus.'",
+            "options": ["auf", "für", "um", "an"],
+            "correctAnswer": "auf",
+            "explanation": "The verb 'warten' always takes 'auf' + Akkusativ."
+          },
+          {
+            "question": "Indirekte Rede: 'Er sagt, er ___ morgen kommen.'",
+            "options": ["werde", "wird", "würde", "ist"],
+            "correctAnswer": "werde",
+            "explanation": "Indirect speech in present uses Konjunktiv I: 'werden' becomes 'werde'."
+          },
+          {
+            "question": "Ergänzen Sie das Modalverb: 'Man ___ hier nicht rauchen.'",
+            "options": ["darf", "kann", "muss", "soll"],
+            "correctAnswer": "darf",
+            "explanation": "For prohibition, use 'dürfen' in the negative form."
+          },
+          {
+            "question": "Welche Verbform ist richtig? 'Während ich ___, klingelte das Telefon.'",
+            "options": ["kochte", "koche", "gekocht habe", "kochen werde"],
+            "correctAnswer": "kochte",
+            "explanation": "With 'während' describing simultaneous past actions, use Präteritum."
+          },
+          {
+            "question": "Ergänzen Sie die Konjunktion: 'Ich rufe dich an, ___ ich zu Hause bin.'",
+            "options": ["sobald", "als", "wenn", "weil"],
+            "correctAnswer": "sobald",
+            "explanation": "'Sobald' indicates immediacy - as soon as something happens."
+          },
+          {
+            "question": "Wählen Sie den richtigen Artikel im Genitiv: 'Das Auto ___ Lehrers ist neu.'",
+            "options": ["des", "der", "dem", "den"],
+            "correctAnswer": "des",
+            "explanation": "Masculine nouns take 'des' in genitive case."
+          },
+          {
+            "question": "Ergänzen Sie die Konjunktion: 'Ich weiß nicht, ___ er kommt.'",
+            "options": ["ob", "wenn", "wann", "dass"],
+            "correctAnswer": "ob",
+            "explanation": "'Ob' introduces indirect yes/no questions."
+          },
+          {
+            "question": "Wählen Sie die richtige Form: 'Das Buch, ___ ich lese, ist spannend.'",
+            "options": ["das", "die", "der", "den"],
+            "correctAnswer": "das",
+            "explanation": "For neuter nouns in accusative, use 'das' as relative pronoun."
+          },
+          {
+            "question": "Ergänzen Sie den temporalen Ausdruck: '___ einem Jahr lerne ich Deutsch.'",
+            "options": ["Seit", "Vor", "In", "Bis"],
+            "correctAnswer": "Seit",
+            "explanation": "'Seit' is used for actions that began in the past and continue to the present."
+          },
+          {
+            "question": "Wählen Sie die richtige Form des Verbs 'helfen': 'Können Sie mir ___?'",
+            "options": ["helfen", "hilfen", "helft", "hilfst"],
+            "correctAnswer": "helfen",
+            "explanation": "After modal verbs, use the infinitive form."
+          },
+          {
+            "question": "Ergänzen Sie die Präposition: 'Ich interessiere mich ___ Sport.'",
+            "options": ["für", "über", "an", "mit"],
+            "correctAnswer": "für",
+            "explanation": "'Sich interessieren' always takes 'für' + Akkusativ."
+          },
+          {
+            "question": "Welche Form ist korrekt? 'Der Film ___ von vielen Menschen gesehen.'",
+            "options": ["wurde", "war", "ist", "hat"],
+            "correctAnswer": "wurde",
+            "explanation": "Past passive uses 'wurde' + Partizip II."
+          },
+          {
+            "question": "Ergänzen Sie den Satz: '___ des schlechten Wetters gehen wir spazieren.'",
+            "options": ["Trotz", "Wegen", "Während", "Seit"],
+            "correctAnswer": "Trotz",
+            "explanation": "'Trotz' means 'despite' and is used with genitive case."
+          },
+          {
+            "question": "Konjunktiv II: 'Wenn ich Zeit ___, würde ich dich besuchen.'",
+            "options": ["hätte", "habe", "hatte", "haben würde"],
+            "correctAnswer": "hätte",
+            "explanation": "In conditional sentences, use Konjunktiv II 'hätte' in the if-clause."
+          },
+          {
+            "question": "Wählen Sie die richtige Verbform: 'Bevor ich ___, frühstücke ich.'",
+            "options": ["gehe", "ging", "gegangen bin", "gegangen war"],
+            "correctAnswer": "gehe",
+            "explanation": "With 'bevor' in present context, use present tense."
+          },
+          {
+            "question": "Ergänzen Sie das Modalverb: 'Man ___ im Unterricht nicht telefonieren.'",
+            "options": ["darf", "kann", "will", "mag"],
+            "correctAnswer": "darf",
+            "explanation": "For rules or permissions, use 'dürfen'."
+          },
+          {
+            "question": "Wählen Sie die richtige Form: 'Das ist der Kollege, ___ ich vertraue.'",
+            "options": ["dem", "den", "der", "dessen"],
+            "correctAnswer": "dem",
+            "explanation": "The verb 'vertrauen' takes dative case."
+          },
+          {
+            "question": "Ergänzen Sie die lokale Präposition: 'Ich gehe ___ die Post.'",
+            "options": ["in", "zu", "bei", "an"],
+            "correctAnswer": "zu",
+            "explanation": "For institutions like post office, use 'zu' + dative."
+          },
+          {
+            "question": "Ergänzen Sie den Satz mit 'lassen': 'Ich ___ mein Auto reparieren.'",
+            "options": ["lasse", "lässt", "lass", "lassen"],
+            "correctAnswer": "lasse",
+            "explanation": "With 'ich', the verb 'lassen' becomes 'lasse'."
+          },
+          {
+            "question": "Wählen Sie die korrekte Form: 'Die Katze, ___ auf dem Sofa liegt, schläft.'",
+            "options": ["die", "der", "das", "den"],
+            "correctAnswer": "die",
+            "explanation": "For feminine nouns in nominative, use 'die' as relative pronoun."
+          },
+          {
+            "question": "Ergänzen Sie die Adjektivendung: 'Mit dem neu___ Auto fahre ich zur Arbeit.'",
+            "options": ["en", "em", "er", "es"],
+            "correctAnswer": "en",
+            "explanation": "After 'dem', adjectives take the ending 'en' in dative case."
+          },
+          {
+            "question": "Wählen Sie die richtige Verbform: 'Es ist wichtig, dass du pünktlich ___.'",
+            "options": ["kommst", "kommen", "kamst", "gekommen"],
+            "correctAnswer": "kommst",
+            "explanation": "In 'dass' clauses, the conjugated verb goes to the end."
+          },
+          {
+            "question": "Ergänzen Sie den Satz: 'Er hat versprochen, morgen ___.'",
+            "options": ["zu kommen", "kommen", "kommt", "gekommen"],
+            "correctAnswer": "zu kommen",
+            "explanation": "After 'versprechen', use infinitive with 'zu'."
+          },
+          {
+            "question": "Wählen Sie die richtige Form: '___ ich mehr übe, ___ besser werde ich.'",
+            "options": ["Je ... desto", "Wenn ... dann", "Als ... wie", "Sowohl ... als auch"],
+            "correctAnswer": "Je ... desto",
+            "explanation": "For proportional relationships, use 'je ... desto'."
+          },
+          {
+            "question": "Ergänzen Sie die Präposition: 'Ich bin stolz ___ meine Leistung.'",
+            "options": ["auf", "über", "für", "um"],
+            "correctAnswer": "auf",
+            "explanation": "The adjective 'stolz' always takes 'auf' + Akkusativ."
+          },
+          {
+            "question": "Welche Form ist im Futur II? 'Bis morgen ___ ich die Arbeit ___ ___.'",
+            "options": ["werde gemacht haben", "habe gemacht", "werde machen", "hatte gemacht"],
+            "correctAnswer": "werde gemacht haben",
+            "explanation": "Future perfect uses 'werden + Partizip II + haben/sein'."
+          },
+          {
+            "question": "Ergänzen Sie den Satz: 'Die Suppe schmeckt ___ gut.'",
+            "options": ["besonders", "besondere", "besonderes", "besonderen"],
+            "correctAnswer": "besonders",
+            "explanation": "Adverbs modifying adjectives don't change their form."
+          },
+          {
+            "question": "Wählen Sie die richtige Verbform: 'Ohne dass er es ___, habe ich ihm geholfen.'",
+            "options": ["merkte", "merkt", "gemerkt", "merken"],
+            "correctAnswer": "merkte",
+            "explanation": "In past context with 'ohne dass', use Präteritum."
+          }
     ]
   }
   
