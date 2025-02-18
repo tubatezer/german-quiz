@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card.jsx';
+import { Button } from '@/components/ui/button.jsx';
 import { AlertCircle, CheckCircle, ArrowLeft, ArrowRight, List, BookOpen, Bookmark, X } from 'lucide-react';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.jsx";
 import questions from '@/data/questions.json';
 
 const GermanQuiz = () => {

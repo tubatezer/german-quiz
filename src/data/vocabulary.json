@@ -1,0 +1,363 @@
+{
+    "vocabulary": [
+      {
+        "question": "Was bedeutet der Ausdruck 'Ich drücke dir die Daumen'?",
+        "options": ["Ich wünsche dir Glück", "Ich bin wütend auf dich", "Ich verstehe dich nicht", "Ich bin müde"],
+        "correctAnswer": "Ich wünsche dir Glück",
+        "explanation": "Dieser Ausdruck wird verwendet, wenn man jemandem Glück wünscht, z.B. vor einer Prüfung."
+      },
+      {
+        "question": "Sie möchten ein Formular ausfüllen. Was bedeutet 'Zutreffendes bitte ankreuzen'?",
+        "options": ["Markieren Sie die richtige Antwort mit einem X", "Schreiben Sie Ihren Namen", "Lesen Sie den Text", "Unterschreiben Sie hier"],
+        "correctAnswer": "Markieren Sie die richtige Antwort mit einem X",
+        "explanation": "Diese Anweisung findet man oft auf Formularen, wenn man etwas auswählen soll."
+      },
+      {
+        "question": "Was bedeutet 'Die Veranstaltung fällt aus'?",
+        "options": ["Die Veranstaltung findet nicht statt", "Die Veranstaltung beginnt", "Die Veranstaltung ist interessant", "Die Veranstaltung ist voll"],
+        "correctAnswer": "Die Veranstaltung findet nicht statt",
+        "explanation": "Ausfallen bedeutet, dass etwas nicht wie geplant stattfindet."
+      },
+      {
+        "question": "Welches Wort passt? 'Können Sie eine _____ für heute Abend im Restaurant machen?'",
+        "options": ["Reservierung", "Bestellung", "Lieferung", "Bezahlung"],
+        "correctAnswer": "Reservierung",
+        "explanation": "Eine Reservierung machen bedeutet, einen Tisch im Restaurant zu buchen."
+      },
+      {
+        "question": "Was bedeutet 'sich beschweren über'?",
+        "options": ["sagen, dass man unzufrieden ist", "um Hilfe bitten", "sich bedanken", "sich freuen"],
+        "correctAnswer": "sagen, dass man unzufrieden ist",
+        "explanation": "Wenn man sich beschwert, drückt man seine Unzufriedenheit aus."
+      },
+      {
+        "question": "Ergänzen Sie den Satz: 'Ich muss den Termin _____.'",
+        "options": ["absagen", "ansagen", "zusagen", "aussagen"],
+        "correctAnswer": "absagen",
+        "explanation": "Absagen bedeutet, dass man einen vereinbarten Termin nicht wahrnehmen kann und dies mitteilt."
+      },
+      {
+        "question": "Sie sind krank. Was sagt der Arzt? 'Nehmen Sie die Tabletten dreimal täglich _____.'",
+        "options": ["ein", "auf", "zu", "an"],
+        "correctAnswer": "ein",
+        "explanation": "Tabletten einnehmen ist der korrekte Ausdruck für die Einnahme von Medikamenten."
+      },
+      {
+        "question": "Was bedeutet 'die Nebenwirkungen'?",
+        "options": ["unerwünschte Effekte von Medikamenten", "positive Wirkungen", "Hauptwirkungen", "Behandlungsdauer"],
+        "correctAnswer": "unerwünschte Effekte von Medikamenten",
+        "explanation": "Nebenwirkungen sind unerwünschte Effekte, die ein Medikament haben kann."
+      },
+      {
+        "question": "Welches Wort passt in die Lücke? 'Die _____ für die Wohnung beträgt zwei Monatsmieten.'",
+        "options": ["Kaution", "Miete", "Rechnung", "Gebühr"],
+        "correctAnswer": "Kaution",
+        "explanation": "Die Kaution ist eine Sicherheit, die man bei der Anmietung einer Wohnung hinterlegen muss."
+      },
+      {
+        "question": "Was bedeutet 'der Lebenslauf' im Kontext einer Bewerbung?",
+        "options": ["eine Übersicht über Ausbildung und Berufserfahrung", "ein Empfehlungsschreiben", "ein Arbeitszeugnis", "ein Motivationsschreiben"],
+        "correctAnswer": "eine Übersicht über Ausbildung und Berufserfahrung",
+        "explanation": "Der Lebenslauf fasst den beruflichen und bildungsbezogenen Werdegang zusammen."
+      },{
+        "question": "Was bedeutet 'Die Heizung ist ausgefallen'?",
+        "options": ["Die Heizung funktioniert nicht mehr", "Die Heizung ist zu warm", "Die Heizung ist neu", "Die Heizung ist leise"],
+        "correctAnswer": "Die Heizung funktioniert nicht mehr",
+        "explanation": "Wenn etwas ausfällt, bedeutet das, dass es nicht mehr funktioniert."
+      },
+      {
+        "question": "Welches Wort passt? 'Der Zug hatte 20 Minuten _____.'",
+        "options": ["Verspätung", "Verfügung", "Versäumnis", "Verkehr"],
+        "correctAnswer": "Verspätung",
+        "explanation": "Verspätung bedeutet, dass etwas später als geplant kommt."
+      },
+      {
+        "question": "Was bedeutet 'einen Antrag stellen'?",
+        "options": ["etwas offiziell beantragen", "etwas kaufen", "etwas verlieren", "etwas vergessen"],
+        "correctAnswer": "etwas offiziell beantragen",
+        "explanation": "Einen Antrag stellt man bei Behörden, wenn man etwas offiziell beantragen möchte."
+      },
+      {
+        "question": "Ergänzen Sie: 'Können Sie mir eine _____ geben? Ich möchte das Formular später ausfüllen.'",
+        "options": ["Kopie", "Taste", "Notiz", "Seite"],
+        "correctAnswer": "Kopie",
+        "explanation": "Eine Kopie ist eine Vervielfältigung eines Dokuments."
+      },
+      {
+        "question": "Was bedeutet der Ausdruck 'Das kommt nicht in Frage'?",
+        "options": ["Das ist nicht möglich", "Das ist eine gute Idee", "Das ist interessant", "Das ist wichtig"],
+        "correctAnswer": "Das ist nicht möglich",
+        "explanation": "Dieser Ausdruck bedeutet, dass etwas absolut nicht möglich oder akzeptabel ist."
+      },
+      {
+        "question": "Welches Wort passt? 'Die _____ für die Wasserschaden-Reparatur war sehr hoch.'",
+        "options": ["Rechnung", "Quittung", "Zahlung", "Karte"],
+        "correctAnswer": "Rechnung",
+        "explanation": "Eine Rechnung ist ein Dokument, das zeigt, wie viel man bezahlen muss."
+      },
+      {
+        "question": "Was bedeutet 'die Sprechstunde'?",
+        "options": ["Zeit für Beratung beim Arzt oder Professor", "Eine Stunde sprechen", "Ein Sprachkurs", "Eine Präsentation"],
+        "correctAnswer": "Zeit für Beratung beim Arzt oder Professor",
+        "explanation": "Die Sprechstunde ist eine festgelegte Zeit für Beratung oder Behandlung."
+      },
+      {
+        "question": "Ergänzen Sie: 'Bitte hinterlassen Sie eine _____.'",
+        "options": ["Nachricht", "Notiz", "Geschichte", "Erzählung"],
+        "correctAnswer": "Nachricht",
+        "explanation": "Eine Nachricht hinterlassen bedeutet, eine Information für jemanden zu hinterlegen."
+      },
+      {
+        "question": "Was bedeutet 'die Ermäßigung'?",
+        "options": ["Preisreduktion", "Erhöhung", "Empfehlung", "Einladung"],
+        "correctAnswer": "Preisreduktion",
+        "explanation": "Eine Ermäßigung ist ein reduzierter Preis, z.B. für Studenten oder Senioren."
+      },
+      {
+        "question": "Welches Wort passt? 'Der _____ ist kaputt, wir haben kein warmes Wasser.'",
+        "options": ["Warmwasserboiler", "Wasserhahn", "Wassertank", "Wasserkocher"],
+        "correctAnswer": "Warmwasserboiler",
+        "explanation": "Der Warmwasserboiler erhitzt das Wasser für den Haushalt."
+      },
+      {
+        "question": "Was bedeutet 'die Kündigungsfrist'?",
+        "options": ["Zeit bis zum Ende eines Vertrags", "Arbeitszeit", "Urlaubszeit", "Wartezeit"],
+        "correctAnswer": "Zeit bis zum Ende eines Vertrags",
+        "explanation": "Die Kündigungsfrist ist die Zeit, die man einhalten muss, wenn man einen Vertrag beenden will."
+      },
+      {
+        "question": "Ergänzen Sie: 'Ich muss meinen Ausweis _____.'",
+        "options": ["verlängern", "vermehren", "vergrößern", "verbessern"],
+        "correctAnswer": "verlängern",
+        "explanation": "Einen Ausweis verlängern bedeutet, die Gültigkeit zu erneuern."
+      },
+      {
+        "question": "Was bedeutet 'die Nebenkostenabrechnung'?",
+        "options": ["Aufstellung zusätzlicher Wohnungskosten", "Hauptmiete", "Kaution", "Provision"],
+        "correctAnswer": "Aufstellung zusätzlicher Wohnungskosten",
+        "explanation": "Die Nebenkostenabrechnung zeigt alle zusätzlichen Kosten neben der Miete."
+      },
+      {
+        "question": "Welches Wort passt? 'Ich brauche eine _____ für das Finanzamt.'",
+        "options": ["Bescheinigung", "Beschreibung", "Bestellung", "Bemerkung"],
+        "correctAnswer": "Bescheinigung",
+        "explanation": "Eine Bescheinigung ist ein offizielles Dokument, das etwas bestätigt."
+      },
+      {
+        "question": "Was bedeutet 'der Krankenschein'?",
+        "options": ["Arbeitsunfähigkeitsbescheinigung", "Krankenversicherungskarte", "Krankenhausrechnung", "Krankenakte"],
+        "correctAnswer": "Arbeitsunfähigkeitsbescheinigung",
+        "explanation": "Der Krankenschein bescheinigt, dass man arbeitsunfähig ist."
+      },{
+        "question": "Was bedeutet 'die Bewerbungsfrist'?",
+        "options": ["Zeitraum für das Einreichen der Bewerbung", "Bewerbungsgespräch", "Arbeitsvertrag", "Kündigungsfrist"],
+        "correctAnswer": "Zeitraum für das Einreichen der Bewerbung",
+        "explanation": "Die Bewerbungsfrist ist der Zeitraum, in dem man eine Bewerbung einreichen muss."
+      },
+      {
+        "question": "Welches Wort passt? 'Ich muss noch die Unterlagen _____.'",
+        "options": ["einreichen", "einrichten", "einräumen", "einführen"],
+        "correctAnswer": "einreichen",
+        "explanation": "Unterlagen einreichen bedeutet, sie offiziell abzugeben oder zu übermitteln."
+      },
+      {
+        "question": "Was bedeutet 'der Durchfall' beim Arzt?",
+        "options": ["Diarrhö", "Erkältung", "Fieber", "Husten"],
+        "correctAnswer": "Diarrhö",
+        "explanation": "Durchfall ist ein medizinischer Ausdruck für Diarrhö."
+      },
+      {
+        "question": "Ergänzen Sie: 'Die _____ für den Kurs beginnt nächste Woche.'",
+        "options": ["Anmeldung", "Abmeldung", "Ummeldung", "Vermeldung"],
+        "correctAnswer": "Anmeldung",
+        "explanation": "Die Anmeldung ist der Prozess, sich für etwas zu registrieren."
+      },
+      {
+        "question": "Was bedeutet 'die Sprechstundenhilfe'?",
+        "options": ["Medizinische Fachangestellte", "Krankenschwester", "Ärztin", "Apothekerin"],
+        "correctAnswer": "Medizinische Fachangestellte",
+        "explanation": "Die Sprechstundenhilfe arbeitet in einer Arztpraxis und unterstützt den Arzt."
+      },
+      {
+        "question": "Welches Wort passt? 'Ich muss meinen Führerschein _____.'",
+        "options": ["umtauschen", "umstellen", "umziehen", "umdrehen"],
+        "correctAnswer": "umtauschen",
+        "explanation": "Einen Führerschein umtauschen bedeutet, ihn gegen einen neuen auszutauschen."
+      },
+      {
+        "question": "Was ist ein 'Überweisungsschein'?",
+        "options": ["Überweisung zum Facharzt", "Banküberweisung", "Zahlungsbeleg", "Kontoauszug"],
+        "correctAnswer": "Überweisung zum Facharzt",
+        "explanation": "Ein Überweisungsschein ist ein Dokument vom Arzt für den Besuch bei einem Facharzt."
+      },
+      {
+        "question": "Ergänzen Sie: 'Ich möchte einen Termin _____.'",
+        "options": ["vereinbaren", "verbinden", "versammeln", "vermeiden"],
+        "correctAnswer": "vereinbaren",
+        "explanation": "Einen Termin vereinbaren bedeutet, einen Zeitpunkt für ein Treffen festzulegen."
+      },
+      {
+        "question": "Was bedeutet 'die Warteschlange'?",
+        "options": ["Reihe wartender Menschen", "Wartezeit", "Wartezimmer", "Warteliste"],
+        "correctAnswer": "Reihe wartender Menschen",
+        "explanation": "Eine Warteschlange ist eine Reihe von Menschen, die auf etwas warten."
+      },
+      {
+        "question": "Welches Wort passt? 'Bitte den Vertrag _____.'",
+        "options": ["unterschreiben", "unterstreichen", "unterstellen", "unterbrechen"],
+        "correctAnswer": "unterschreiben",
+        "explanation": "Einen Vertrag unterschreiben bedeutet, ihn mit seiner Unterschrift zu bestätigen."
+      },
+      {
+        "question": "Was bedeutet 'die Versicherungskarte'?",
+        "options": ["Nachweis der Krankenversicherung", "Kreditkarte", "Visitenkarte", "Fahrkarte"],
+        "correctAnswer": "Nachweis der Krankenversicherung",
+        "explanation": "Die Versicherungskarte zeigt, dass man krankenversichert ist."
+      },
+      {
+        "question": "Was ist eine 'Bescheinigung'?",
+        "options": ["offizielles Dokument", "Beschreibung", "Bestellung", "Beratung"],
+        "correctAnswer": "offizielles Dokument",
+        "explanation": "Eine Bescheinigung ist ein offizielles Dokument, das etwas bestätigt."
+      },
+      {
+        "question": "Ergänzen Sie: 'Die _____ für das Paket liegt im Briefkasten.'",
+        "options": ["Benachrichtigung", "Bekanntmachung", "Bedeutung", "Behandlung"],
+        "correctAnswer": "Benachrichtigung",
+        "explanation": "Eine Benachrichtigung informiert über ein eingegangenes Paket."
+      },
+      {
+        "question": "Was bedeutet 'der Auszubildende'?",
+        "options": ["Lehrling", "Student", "Schüler", "Lehrer"],
+        "correctAnswer": "Lehrling",
+        "explanation": "Ein Auszubildender ist jemand, der eine Berufsausbildung macht."
+      },
+      {
+        "question": "Welches Wort passt? 'Die _____ für den Antrag beträgt 6 Wochen.'",
+        "options": ["Bearbeitungszeit", "Arbeitszeit", "Wartezeit", "Pausenzeit"],
+        "correctAnswer": "Bearbeitungszeit",
+        "explanation": "Die Bearbeitungszeit ist die Dauer, die eine Behörde braucht, um einen Antrag zu bearbeiten."
+      },
+      {
+        "question": "Was bedeutet 'der Kostenvoranschlag'?",
+        "options": ["geschätzte Kosten im Voraus", "Rechnung", "Quittung", "Mahnung"],
+        "correctAnswer": "geschätzte Kosten im Voraus",
+        "explanation": "Ein Kostenvoranschlag zeigt, wie viel etwas voraussichtlich kosten wird."
+      },
+      {
+        "question": "Ergänzen Sie: 'Bitte nehmen Sie im _____ Platz.'",
+        "options": ["Wartezimmer", "Warteraum", "Wartesaal", "Wartebereich"],
+        "correctAnswer": "Wartezimmer",
+        "explanation": "Das Wartezimmer ist der Raum, wo man beim Arzt wartet."
+      },
+      {
+        "question": "Was ist eine 'Mahnung'?",
+        "options": ["Zahlungserinnerung", "Rechnung", "Quittung", "Beleg"],
+        "correctAnswer": "Zahlungserinnerung",
+        "explanation": "Eine Mahnung erinnert an eine noch nicht bezahlte Rechnung."
+      },
+      {
+        "question": "Welches Wort passt? 'Ich muss meine Adresse _____.'",
+        "options": ["ändern", "wechseln", "tauschen", "wandeln"],
+        "correctAnswer": "ändern",
+        "explanation": "Seine Adresse ändern bedeutet, die neue Adresse offiziell mitzuteilen."
+      },
+      {
+        "question": "Was bedeutet 'die Sprechzeit'?",
+        "options": ["Zeit für Beratung", "Öffnungszeit", "Arbeitszeit", "Pause"],
+        "correctAnswer": "Zeit für Beratung",
+        "explanation": "Die Sprechzeit ist die Zeit, in der man mit jemandem sprechen kann."
+      },
+      {
+        "question": "Was ist ein 'Termin'?",
+        "options": ["vereinbarter Zeitpunkt", "Zeitraum", "Frist", "Dauer"],
+        "correctAnswer": "vereinbarter Zeitpunkt",
+        "explanation": "Ein Termin ist ein festgelegter Zeitpunkt für ein Treffen oder einen Besuch."
+      },
+      {
+        "question": "Ergänzen Sie: 'Bitte bringen Sie einen _____ mit.'",
+        "options": ["Personalausweis", "Führerschein", "Reisepass", "Studentenausweis"],
+        "correctAnswer": "Personalausweis",
+        "explanation": "Der Personalausweis ist ein offizielles Ausweisdokument."
+      },
+      {
+        "question": "Was bedeutet 'Feierabend haben'?",
+        "options": ["Arbeitsende", "Feiertag", "Urlaub", "Pause"],
+        "correctAnswer": "Arbeitsende",
+        "explanation": "Feierabend haben bedeutet, dass die Arbeit für den Tag beendet ist."
+      },
+      {
+        "question": "Welches Wort passt? 'Die _____ ist ab sofort gültig.'",
+        "options": ["Genehmigung", "Gelassenheit", "Gelegenheit", "Gesellschaft"],
+        "correctAnswer": "Genehmigung",
+        "explanation": "Eine Genehmigung ist eine offizielle Erlaubnis."
+      },
+      {
+        "question": "Was ist ein 'Schreiben'?",
+        "options": ["offizieller Brief", "Notiz", "Nachricht", "Notfall"],
+        "correctAnswer": "offizieller Brief",
+        "explanation": "Ein Schreiben ist ein offizieller Brief, meist von einer Behörde."
+      },
+      {
+        "question": "Ergänzen Sie: 'Bitte _____ Sie das Formular vollständig aus.'",
+        "options": ["füllen", "schreiben", "machen", "geben"],
+        "correctAnswer": "füllen",
+        "explanation": "Ein Formular ausfüllen bedeutet, alle erforderlichen Informationen einzutragen."
+      },
+      {
+        "question": "Was bedeutet 'die Sprechstunde'?",
+        "options": ["Beratungszeit", "Unterricht", "Vorlesung", "Pause"],
+        "correctAnswer": "Beratungszeit",
+        "explanation": "Die Sprechstunde ist eine Zeit für Beratung oder Gespräche."
+      },
+      {
+        "question": "Welches Wort passt? 'Bitte _____ Sie Ihre Versicherungskarte.'",
+        "options": ["vorlegen", "vorstellen", "vorbringen", "vortragen"],
+        "correctAnswer": "vorlegen",
+        "explanation": "Etwas vorlegen bedeutet, ein Dokument zu zeigen oder einzureichen."
+      },
+      {
+        "question": "Was ist eine 'Überweisung'?",
+        "options": ["Geldtransfer", "Übersetzen", "Überfahrt", "Überprüfung"],
+        "correctAnswer": "Geldtransfer",
+        "explanation": "Eine Überweisung ist eine Methode, Geld von einem Konto auf ein anderes zu transferieren."
+      },
+      {
+        "question": "Ergänzen Sie: 'Bitte _____ Sie den Beleg.'",
+        "options": ["aufbewahren", "aufhalten", "aufheben", "aufmachen"],
+        "correctAnswer": "aufbewahren",
+        "explanation": "Einen Beleg aufbewahren bedeutet, ihn für spätere Verwendung zu behalten."
+      },
+      {
+        "question": "Was bedeutet 'die Vertretung'?",
+        "options": ["Ersatzperson", "Vorstellung", "Versammlung", "Verspätung"],
+        "correctAnswer": "Ersatzperson",
+        "explanation": "Eine Vertretung ist jemand, der eine andere Person vorübergehend ersetzt."
+      },
+      {
+        "question": "Welches Wort passt? 'Die _____ ist noch nicht bezahlt.'",
+        "options": ["Rate", "Ration", "Ratgeber", "Rational"],
+        "correctAnswer": "Rate",
+        "explanation": "Eine Rate ist ein Teilbetrag einer Zahlung."
+      },
+      {
+        "question": "Was ist ein 'Gutschein'?",
+        "options": ["Wertnachweis", "Gutachten", "Gutshaus", "Gutmensch"],
+        "correctAnswer": "Wertnachweis",
+        "explanation": "Ein Gutschein ist ein Dokument mit einem bestimmten Geldwert zum Einkaufen."
+      },
+      {
+        "question": "Ergänzen Sie: 'Bitte _____ Sie sich an der Rezeption.'",
+        "options": ["melden", "malen", "meinen", "mögen"],
+        "correctAnswer": "melden",
+        "explanation": "Sich melden bedeutet, seine Anwesenheit bekannt zu geben."
+      },
+      {
+        "question": "Was bedeutet 'im Voraus'?",
+        "options": ["früher als nötig", "verspätet", "gleichzeitig", "nachträglich"],
+        "correctAnswer": "früher als nötig",
+        "explanation": "Im Voraus bedeutet, etwas früher als erforderlich zu tun."
+      }
+
+    ]
+  }
