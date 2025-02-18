@@ -1,10 +1,11 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card.jsx';
 import { Button } from '@/components/ui/button.jsx';
 import { AlertCircle, CheckCircle, ArrowLeft, ArrowRight, List, BookOpen, Bookmark, X } from 'lucide-react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.jsx";
-import questions from '@/data/questions.json';
+import grammarQuestions from '@/data/grammar.json';
+import vocabularyQuestions from '@/data/vocabulary.json';
 
 const GermanQuiz = () => {
   const categories = {
@@ -14,6 +15,14 @@ const GermanQuiz = () => {
     situations: "Alltagssituationen",
     reading: "Leseverstehen"
   };
+
+  const [questions, setQuestions] = useState({
+    grammar: grammarQuestions.grammar,
+    vocabulary: vocabularyQuestions.vocabulary,
+    expressions: [],
+    situations: [],
+    reading: []
+  });
 
   const [currentCategory, setCurrentCategory] = useState('grammar');
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -88,28 +97,30 @@ const GermanQuiz = () => {
         </div>
         
         {Object.entries(categories).map(([catKey, catName]) => (
-          <div key={catKey} className="mb-6">
-            <h3 className="text-lg font-semibold mb-2">{catName}</h3>
-            <div className="grid grid-cols-1 gap-2">
-              {questions[catKey]?.map((q, idx) => (
-                <Button
-                  key={idx}
-                  variant="outline"
-                  className={`text-left justify-start h-auto py-2 ${
-                    userAnswers[`${catKey}-${idx}`] ? 'border-green-500' : ''
-                  } ${bookmarkedQuestions[`${catKey}-${idx}`] ? 'bg-yellow-50' : ''}`}
-                  onClick={() => {
-                    setCurrentCategory(catKey);
-                    setCurrentQuestion(idx);
-                    setShowQuestionList(false);
-                  }}
-                >
-                  <span className="mr-2">{idx + 1}.</span>
-                  <span className="truncate">{q.question.slice(0, 50)}...</span>
-                </Button>
-              ))}
+          questions[catKey]?.length > 0 && (
+            <div key={catKey} className="mb-6">
+              <h3 className="text-lg font-semibold mb-2">{catName}</h3>
+              <div className="grid grid-cols-1 gap-2">
+                {questions[catKey].map((q, idx) => (
+                  <Button
+                    key={idx}
+                    variant="outline"
+                    className={`text-left justify-start h-auto py-2 ${
+                      userAnswers[`${catKey}-${idx}`] ? 'border-green-500' : ''
+                    } ${bookmarkedQuestions[`${catKey}-${idx}`] ? 'bg-yellow-50' : ''}`}
+                    onClick={() => {
+                      setCurrentCategory(catKey);
+                      setCurrentQuestion(idx);
+                      setShowQuestionList(false);
+                    }}
+                  >
+                    <span className="mr-2">{idx + 1}.</span>
+                    <span className="truncate">{q.question.slice(0, 50)}...</span>
+                  </Button>
+                ))}
+              </div>
             </div>
-          </div>
+          )
         ))}
       </div>
     </div>
@@ -119,7 +130,9 @@ const GermanQuiz = () => {
     <Card className="w-full max-w-2xl mx-auto">
       <CardHeader>
         <CardTitle className="text-2xl">German B1 Level Quiz</CardTitle>
-        <CardDescription>300 Questions - {categories[currentCategory]}</CardDescription>
+        <CardDescription>
+          {Object.entries(questions).reduce((total, [category, questionList]) => total + questionList.length, 0)} Questions - {categories[currentCategory]}
+        </CardDescription>
         
         <div className="flex gap-2 mb-4">
           <Button
@@ -162,7 +175,9 @@ const GermanQuiz = () => {
           </SelectTrigger>
           <SelectContent>
             {Object.entries(categories).map(([key, value]) => (
-              <SelectItem key={key} value={key}>{value}</SelectItem>
+              questions[key]?.length > 0 && (
+                <SelectItem key={key} value={key}>{value}</SelectItem>
+              )
             ))}
           </SelectContent>
         </Select>
