@@ -1,0 +1,368 @@
+{
+    "expressions": [
+      {
+        "question": "Was bedeutet die Redewendung 'Ich drücke dir die Daumen'?",
+        "options": ["Ich wünsche dir Glück", "Ich bin sauer auf dich", "Ich verstehe dich nicht", "Ich helfe dir"],
+        "correctAnswer": "Ich wünsche dir Glück",
+        "explanation": "Diese Redewendung bedeutet, dass man jemandem Glück wünscht, ähnlich wie 'I keep my fingers crossed' auf Englisch."
+      },
+      {
+        "question": "Welche Bedeutung hat 'Das ist mir Wurst'?",
+        "options": ["Das ist mir egal", "Das ist sehr wichtig", "Das ist lecker", "Das ist schwierig"],
+        "correctAnswer": "Das ist mir egal",
+        "explanation": "Diese umgangssprachliche Redewendung bedeutet, dass einem etwas gleichgültig ist."
+      },
+      {
+        "question": "Was bedeutet 'die Nase voll haben von etwas'?",
+        "options": ["etwas satt haben", "erkältet sein", "etwas riechen", "etwas mögen"],
+        "correctAnswer": "etwas satt haben",
+        "explanation": "Wenn man die Nase voll hat von etwas, dann ist man genervt davon oder möchte damit nichts mehr zu tun haben."
+      },
+      {
+        "question": "Vervollständigen Sie: 'Alles hat ein Ende, nur die Wurst hat _____.'",
+        "options": ["zwei", "keine", "ein", "drei"],
+        "correctAnswer": "zwei",
+        "explanation": "Dieser humorvolle Spruch bedeutet, dass alles irgendwann zu Ende geht - nur die Wurst hat zwei Enden."
+      },
+      {
+        "question": "Was bedeutet 'auf den Putz hauen'?",
+        "options": ["ausgelassen feiern", "renovieren", "sich streiten", "sparen"],
+        "correctAnswer": "ausgelassen feiern",
+        "explanation": "Diese Redewendung bedeutet, dass man ausgiebig feiert oder Geld ausgibt."
+      },
+      {
+        "question": "Was bedeutet 'ins Fettnäpfchen treten'?",
+        "options": ["einen Fehler machen", "sich verletzen", "Glück haben", "erfolgreich sein"],
+        "correctAnswer": "einen Fehler machen",
+        "explanation": "Diese Redewendung bedeutet, dass man unabsichtlich etwas Peinliches oder sozial Unangemessenes tut."
+      },
+      {
+        "question": "Welche Bedeutung hat 'nicht alle Tassen im Schrank haben'?",
+        "options": ["verrückt sein", "arm sein", "krank sein", "müde sein"],
+        "correctAnswer": "verrückt sein",
+        "explanation": "Diese umgangssprachliche Redewendung bedeutet, dass jemand sich merkwürdig oder verrückt verhält."
+      },
+      {
+        "question": "Was bedeutet 'den Teufel an die Wand malen'?",
+        "options": ["alles negativ sehen", "kreativ sein", "Kunst machen", "Angst haben"],
+        "correctAnswer": "alles negativ sehen",
+        "explanation": "Diese Redewendung bedeutet, dass jemand eine Situation besonders pessimistisch oder negativ darstellt."
+      },
+      {
+        "question": "Was bedeutet 'Ich verstehe nur Bahnhof'?",
+        "options": ["Ich verstehe gar nichts", "Ich mag Züge", "Ich bin verwirrt", "Ich reise gerne"],
+        "correctAnswer": "Ich verstehe gar nichts",
+        "explanation": "Diese Redewendung verwendet man, wenn man überhaupt nichts versteht."
+      },
+      {
+        "question": "Was bedeutet 'mit dem falschen Fuß aufstehen'?",
+        "options": ["schlecht gelaunt sein", "sich verletzen", "zu spät aufwachen", "stolpern"],
+        "correctAnswer": "schlecht gelaunt sein",
+        "explanation": "Diese Redewendung beschreibt, wenn jemand von Anfang an schlecht gelaunt ist oder einen schlechten Tag hat."
+      },{
+        "question": "Was bedeutet 'auf der Brennsuppe dahergeschwommen sein'?",
+        "options": ["nicht sehr schlau sein", "schwimmen können", "kochen können", "Hunger haben"],
+        "correctAnswer": "nicht sehr schlau sein",
+        "explanation": "Diese Redewendung bedeutet, dass jemand nicht sehr intelligent erscheint."
+      },
+      {
+        "question": "Was bedeutet 'einen Kloß im Hals haben'?",
+        "options": ["vor Rührung nicht sprechen können", "erkältet sein", "hungrig sein", "müde sein"],
+        "correctAnswer": "vor Rührung nicht sprechen können",
+        "explanation": "Diese Redewendung beschreibt das Gefühl, wenn man vor Rührung oder Aufregung nicht sprechen kann."
+      },
+      {
+        "question": "Was bedeutet 'aus allen Wolken fallen'?",
+        "options": ["völlig überrascht sein", "vom Himmel fallen", "traurig sein", "regnen"],
+        "correctAnswer": "völlig überrascht sein",
+        "explanation": "Diese Redewendung bedeutet, dass man völlig überrascht oder schockiert ist."
+      },
+      {
+        "question": "Was bedeutet 'um den heißen Brei herumreden'?",
+        "options": ["nicht zum Punkt kommen", "kochen", "direkt sein", "essen"],
+        "correctAnswer": "nicht zum Punkt kommen",
+        "explanation": "Diese Redewendung bedeutet, dass jemand nicht direkt sagt, worum es geht."
+      },
+      {
+        "question": "Was bedeutet 'Sand in die Augen streuen'?",
+        "options": ["jemanden täuschen", "am Strand sein", "müde sein", "putzen"],
+        "correctAnswer": "jemanden täuschen",
+        "explanation": "Diese Redewendung bedeutet, dass man jemanden bewusst täuscht oder belügt."
+      },
+      {
+        "question": "Was bedeutet 'auf Wolke sieben schweben'?",
+        "options": ["sehr glücklich sein", "fliegen", "träumen", "schlafen"],
+        "correctAnswer": "sehr glücklich sein",
+        "explanation": "Diese Redewendung bedeutet, dass man überglücklich oder verliebt ist."
+      },
+      {
+        "question": "Was bedeutet 'mit dem linken Fuß zuerst aufgestanden sein'?",
+        "options": ["schlecht gelaunt sein", "Linkshänder sein", "verschlafen haben", "Sport machen"],
+        "correctAnswer": "schlecht gelaunt sein",
+        "explanation": "Diese Redewendung bedeutet, dass jemand schlecht gelaunt ist oder einen schlechten Tag hat."
+      },
+      {
+        "question": "Was bedeutet 'die Flinte ins Korn werfen'?",
+        "options": ["aufgeben", "jagen gehen", "arbeiten", "Sport machen"],
+        "correctAnswer": "aufgeben",
+        "explanation": "Diese Redewendung bedeutet, dass man aufgibt oder resigniert."
+      },
+      {
+        "question": "Was bedeutet 'jemandem einen Floh ins Ohr setzen'?",
+        "options": ["jemandem eine Idee eingeben", "jemanden ärgern", "etwas vergessen", "nicht zuhören"],
+        "correctAnswer": "jemandem eine Idee eingeben",
+        "explanation": "Diese Redewendung bedeutet, dass man jemandem eine Idee gibt, die ihn nicht mehr loslässt."
+      },
+      {
+        "question": "Was bedeutet 'auf dem Schlauch stehen'?",
+        "options": ["etwas nicht verstehen", "durstig sein", "müde sein", "Sport machen"],
+        "correctAnswer": "etwas nicht verstehen",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas nicht versteht oder begreift."
+      },
+      {
+        "question": "Was bedeutet 'Butter bei die Fische geben'?",
+        "options": ["konkret werden", "kochen", "einkaufen", "sparen"],
+        "correctAnswer": "konkret werden",
+        "explanation": "Diese Redewendung bedeutet, dass man endlich konkret werden oder Klarheit schaffen soll."
+      },
+      {
+        "question": "Was bedeutet 'das Gelbe vom Ei sein'?",
+        "options": ["das Beste sein", "frühstücken", "kochen", "sparen"],
+        "correctAnswer": "das Beste sein",
+        "explanation": "Diese Redewendung bedeutet, dass etwas besonders gut oder die beste Lösung ist."
+      },{
+        "question": "Was bedeutet 'die Nerven verlieren'?",
+        "options": ["die Geduld verlieren", "krank werden", "müde werden", "Sport machen"],
+        "correctAnswer": "die Geduld verlieren",
+        "explanation": "Diese Redewendung bedeutet, dass man die Beherrschung oder Geduld verliert."
+      },
+      {
+        "question": "Was bedeutet 'fix und fertig sein'?",
+        "options": ["sehr erschöpft sein", "bereit sein", "gesund sein", "schnell sein"],
+        "correctAnswer": "sehr erschöpft sein",
+        "explanation": "Diese Redewendung bedeutet, dass man völlig erschöpft oder am Ende seiner Kräfte ist."
+      },
+      {
+        "question": "Was bedeutet 'ein Herz und eine Seele sein'?",
+        "options": ["sich sehr gut verstehen", "verliebt sein", "verheiratet sein", "verwandt sein"],
+        "correctAnswer": "sich sehr gut verstehen",
+        "explanation": "Diese Redewendung bedeutet, dass zwei Menschen sich sehr gut verstehen und harmonieren."
+      },
+      {
+        "question": "Was bedeutet 'den Kopf über Wasser halten'?",
+        "options": ["gerade so durchkommen", "schwimmen", "reich sein", "gesund sein"],
+        "correctAnswer": "gerade so durchkommen",
+        "explanation": "Diese Redewendung bedeutet, dass man sich trotz Schwierigkeiten gerade noch behaupten kann."
+      },
+      {
+        "question": "Was bedeutet 'etwas auf Eis legen'?",
+        "options": ["etwas verschieben", "etwas kühlen", "etwas vergessen", "etwas beenden"],
+        "correctAnswer": "etwas verschieben",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas vorübergehend verschiebt oder aussetzt."
+      },
+      {
+        "question": "Was bedeutet 'mit offenen Karten spielen'?",
+        "options": ["ehrlich sein", "Karten spielen", "betrügen", "Glück haben"],
+        "correctAnswer": "ehrlich sein",
+        "explanation": "Diese Redewendung bedeutet, dass man ehrlich und transparent handelt."
+      },
+      {
+        "question": "Was bedeutet 'sich etwas von der Seele reden'?",
+        "options": ["über Probleme sprechen", "lügen", "schweigen", "singen"],
+        "correctAnswer": "über Probleme sprechen",
+        "explanation": "Diese Redewendung bedeutet, dass man durch Sprechen seine Sorgen erleichtert."
+      },
+      {
+        "question": "Was bedeutet 'unter die Arme greifen'?",
+        "options": ["jemandem helfen", "jemanden umarmen", "jemanden tragen", "Sport machen"],
+        "correctAnswer": "jemandem helfen",
+        "explanation": "Diese Redewendung bedeutet, dass man jemandem hilft oder unterstützt."
+      },
+      {
+        "question": "Was bedeutet 'in den Tag hinein leben'?",
+        "options": ["ohne Plan leben", "früh aufstehen", "arbeiten", "sparen"],
+        "correctAnswer": "ohne Plan leben",
+        "explanation": "Diese Redewendung bedeutet, dass man ohne Planung oder Sorgen lebt."
+      },
+      {
+        "question": "Was bedeutet 'etwas über den grünen Klee loben'?",
+        "options": ["übertrieben loben", "kritisieren", "gärtnern", "normal loben"],
+        "correctAnswer": "übertrieben loben",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas übermäßig oder übertrieben lobt."
+      },
+      {
+        "question": "Was bedeutet 'wie ein Wasserfall reden'?",
+        "options": ["ununterbrochen reden", "schweigen", "stottern", "flüstern"],
+        "correctAnswer": "ununterbrochen reden",
+        "explanation": "Diese Redewendung bedeutet, dass jemand sehr viel und schnell spricht."
+      },
+      {
+        "question": "Was bedeutet 'ein Eigentor schießen'?",
+        "options": ["sich selbst schaden", "Fußball spielen", "gewinnen", "Erfolg haben"],
+        "correctAnswer": "sich selbst schaden",
+        "explanation": "Diese Redewendung bedeutet, dass man sich selbst schadet oder einen Fehler macht."
+      },
+      {
+        "question": "Was bedeutet 'die Suppe auslöffeln'?",
+        "options": ["Konsequenzen tragen", "essen", "kochen", "aufräumen"],
+        "correctAnswer": "Konsequenzen tragen",
+        "explanation": "Diese Redewendung bedeutet, dass man die Konsequenzen für etwas tragen muss."
+      },
+      {
+        "question": "Was bedeutet 'eine weiße Weste haben'?",
+        "options": ["unschuldig sein", "sauber sein", "elegant sein", "reich sein"],
+        "correctAnswer": "unschuldig sein",
+        "explanation": "Diese Redewendung bedeutet, dass jemand sich nichts zuschulden kommen lassen hat."
+      },
+      {
+        "question": "Was bedeutet 'den Faden verlieren'?",
+        "options": ["den Überblick verlieren", "nähen", "aufgeben", "verlieren"],
+        "correctAnswer": "den Überblick verlieren",
+        "explanation": "Diese Redewendung bedeutet, dass man den Zusammenhang oder die Orientierung verliert."
+      },
+      {
+        "question": "Was bedeutet 'etwas an den Nagel hängen'?",
+        "options": ["etwas aufgeben", "renovieren", "aufräumen", "arbeiten"],
+        "correctAnswer": "etwas aufgeben",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas aufgibt oder damit aufhört."
+      },
+      {
+        "question": "Was bedeutet 'die Ohren spitzen'?",
+        "options": ["genau zuhören", "nicht hören", "müde sein", "laut sein"],
+        "correctAnswer": "genau zuhören",
+        "explanation": "Diese Redewendung bedeutet, dass man besonders aufmerksam zuhört."
+      },
+      {
+        "question": "Was bedeutet 'aus der Haut fahren'?",
+        "options": ["sehr wütend werden", "krank sein", "sich freuen", "entspannt sein"],
+        "correctAnswer": "sehr wütend werden",
+        "explanation": "Diese Redewendung bedeutet, dass man sehr wütend oder aufgebracht wird."
+      },
+      {
+        "question": "Was bedeutet 'jemandem die Butter vom Brot nehmen'?",
+        "options": ["jemandem etwas wegnehmen", "frühstücken", "teilen", "helfen"],
+        "correctAnswer": "jemandem etwas wegnehmen",
+        "explanation": "Diese Redewendung bedeutet, dass man jemandem einen Vorteil oder Gewinn wegnimmt."
+      },
+      {
+        "question": "Was bedeutet 'mit beiden Beinen im Leben stehen'?",
+        "options": ["realistisch sein", "Sport machen", "tanzen", "reisen"],
+        "correctAnswer": "realistisch sein",
+        "explanation": "Diese Redewendung bedeutet, dass man realistisch und fest im Leben steht."
+      },
+      {
+        "question": "Was bedeutet 'Öl ins Feuer gießen'?",
+        "options": ["einen Streit verschlimmern", "kochen", "Feuer machen", "putzen"],
+        "correctAnswer": "einen Streit verschlimmern",
+        "explanation": "Diese Redewendung bedeutet, dass man eine bereits angespannte Situation noch verschlimmert."
+      },
+      {
+        "question": "Was bedeutet 'etwas auf die Reihe bekommen'?",
+        "options": ["etwas schaffen", "ordentlich sein", "aufräumen", "planen"],
+        "correctAnswer": "etwas schaffen",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas erfolgreich erledigt oder organisiert."
+      },
+      {
+        "question": "Was bedeutet 'die Nadel im Heuhaufen suchen'?",
+        "options": ["etwas Unmögliches versuchen", "nähen", "Landwirtschaft", "aufräumen"],
+        "correctAnswer": "etwas Unmögliches versuchen",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas fast Unmögliches versucht."
+      },
+      {
+        "question": "Was bedeutet 'in den Wind reden'?",
+        "options": ["vergeblich reden", "draußen sein", "schreien", "leise sprechen"],
+        "correctAnswer": "vergeblich reden",
+        "explanation": "Diese Redewendung bedeutet, dass man etwas sagt, was andere nicht beachten."
+      },
+      {
+        "question": "Was bedeutet 'das Eis brechen'?",
+        "options": ["die Stimmung auflockern", "Winter haben", "kalt sein", "Ski fahren"],
+        "correctAnswer": "die Stimmung auflockern",
+        "explanation": "Diese Redewendung bedeutet, dass man eine angespannte Situation auflockert."
+      },
+      {
+        "question": "Was bedeutet 'mit dem Feuer spielen'?",
+        "options": ["leichtsinnig handeln", "kochen", "campen", "rauchen"],
+        "correctAnswer": "leichtsinnig handeln",
+        "explanation": "Diese Redewendung bedeutet, dass man sich leichtsinnig in Gefahr begibt."
+      },
+      {
+        "question": "Was bedeutet 'in die Röhre gucken'?",
+        "options": ["leer ausgehen", "fernsehen", "warten", "beobachten"],
+        "correctAnswer": "leer ausgehen",
+        "explanation": "Diese Redewendung bedeutet, dass man benachteiligt wird oder nichts bekommt."
+      },
+      {
+        "question": "Was bedeutet 'auf der Leiter stehen'?",
+        "options": ["Karriere machen", "renovieren", "putzen", "klettern"],
+        "correctAnswer": "Karriere machen",
+        "explanation": "Diese Redewendung bedeutet, dass man beruflich aufsteigt oder Erfolg hat."
+      },
+      {
+        "question": "Was bedeutet 'dem Himmel sei Dank'?",
+        "options": ["sehr erleichtert sein", "beten", "religiös sein", "draußen sein"],
+        "correctAnswer": "sehr erleichtert sein",
+        "explanation": "Diese Redewendung drückt große Erleichterung oder Dankbarkeit aus."
+      },
+      {
+        "question": "Was bedeutet 'Hahn im Korb sein'?",
+        "options": ["einziger Mann sein", "Tiere haben", "kochen", "arbeiten"],
+        "correctAnswer": "einziger Mann sein",
+        "explanation": "Diese Redewendung bedeutet, dass ein Mann der einzige in einer Gruppe von Frauen ist."
+      },
+      {
+        "question": "Was bedeutet 'wie ein Phönix aus der Asche steigen'?",
+        "options": ["gestärkt neu anfangen", "Feuer machen", "putzen", "aufgeben"],
+        "correctAnswer": "gestärkt neu anfangen",
+        "explanation": "Diese Redewendung bedeutet, dass man nach einer Niederlage gestärkt neu anfängt."
+      },
+      {
+        "question": "Was bedeutet 'eine Schraube locker haben'?",
+        "options": ["verrückt sein", "handwerklich sein", "krank sein", "müde sein"],
+        "correctAnswer": "verrückt sein",
+        "explanation": "Diese Redewendung bedeutet, dass jemand sich merkwürdig oder verrückt verhält."
+      },
+      {
+        "question": "Was bedeutet 'das Ruder herumreißen'?",
+        "options": ["die Situation ändern", "Boot fahren", "Sport machen", "aufgeben"],
+        "correctAnswer": "die Situation ändern",
+        "explanation": "Diese Redewendung bedeutet, dass man eine negative Situation zum Positiven wendet."
+      },
+      {
+        "question": "Was bedeutet 'den Ton angeben'?",
+        "options": ["bestimmend sein", "singen", "musizieren", "sprechen"],
+        "correctAnswer": "bestimmend sein",
+        "explanation": "Diese Redewendung bedeutet, dass jemand bestimmt, was gemacht wird."
+      },
+      {
+        "question": "Was bedeutet 'aus dem Schneider sein'?",
+        "options": ["Schwierigkeiten überwunden haben", "Ski fahren", "arbeiten", "kalt haben"],
+        "correctAnswer": "Schwierigkeiten überwunden haben",
+        "explanation": "Diese Redewendung bedeutet, dass man eine schwierige Situation überwunden hat."
+      },
+      {
+        "question": "Was bedeutet 'die Kirche im Dorf lassen'?",
+        "options": ["nicht übertreiben", "religiös sein", "wandern", "wohnen"],
+        "correctAnswer": "nicht übertreiben",
+        "explanation": "Diese Redewendung bedeutet, dass man realistisch bleiben und nicht übertreiben soll."
+      },
+      {
+        "question": "Was bedeutet 'das Handtuch werfen'?",
+        "options": ["aufgeben", "Sport machen", "putzen", "duschen"],
+        "correctAnswer": "aufgeben",
+        "explanation": "Diese Redewendung bedeutet, dass man aufgibt oder resigniert."
+      },
+      {
+        "question": "Was bedeutet 'auf Nummer sicher gehen'?",
+        "options": ["vorsichtig sein", "telefonieren", "mathematisch sein", "spielen"],
+        "correctAnswer": "vorsichtig sein",
+        "explanation": "Diese Redewendung bedeutet, dass man besonders vorsichtig und bedacht handelt."
+      },
+      {
+        "question": "Was bedeutet 'ins Gras beißen'?",
+        "options": ["sterben", "picknicken", "Sport machen", "schlafen"],
+        "correctAnswer": "sterben",
+        "explanation": "Diese umgangssprachliche Redewendung bedeutet 'sterben' (wird oft scherzhaft verwendet)."
+      }
+    ]
+  }

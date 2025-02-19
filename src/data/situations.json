@@ -1,0 +1,774 @@
+{
+    "situations": [
+      {
+        "question": "Beim Arzt: Sie haben starke Kopfschmerzen. Was sagen Sie?",
+        "options": [
+          "Ich habe seit gestern starke Kopfschmerzen und Schwindel.",
+          "Mein Kopf ist kaputt.",
+          "Ich brauche neue Tabletten.",
+          "Können Sie mir ein Rezept geben?"
+        ],
+        "correctAnswer": "Ich habe seit gestern starke Kopfschmerzen und Schwindel.",
+        "explanation": "Diese Antwort beschreibt die Symptome klar und präzise, was für einen Arztbesuch wichtig ist."
+      },
+      {
+        "question": "In der Bank: Sie möchten ein Konto eröffnen. Wie fragen Sie?",
+        "options": [
+          "Ich möchte gerne ein Girokonto eröffnen. Können Sie mir die Konditionen erklären?",
+          "Ich will Geld haben.",
+          "Wo ist hier die Bank?",
+          "Geben Sie mir ein Konto."
+        ],
+        "correctAnswer": "Ich möchte gerne ein Girokonto eröffnen. Können Sie mir die Konditionen erklären?",
+        "explanation": "Diese Formulierung ist höflich und präzise, und zeigt Interesse an den Details."
+      },
+      {
+        "question": "Im Restaurant: Das Essen ist zu kalt. Wie beschweren Sie sich höflich?",
+        "options": [
+          "Entschuldigung, mein Essen ist leider kalt. Könnten Sie es bitte aufwärmen?",
+          "Das Essen ist kalt! Ich will ein neues!",
+          "Ich esse das nicht.",
+          "Bringen Sie mir die Rechnung."
+        ],
+        "correctAnswer": "Entschuldigung, mein Essen ist leider kalt. Könnten Sie es bitte aufwärmen?",
+        "explanation": "Diese Beschwerde ist höflich formuliert und enthält eine konkrete Bitte."
+      },
+      {
+        "question": "Bei der Wohnungsbesichtigung: Sie möchten nach der Kaution fragen. Wie formulieren Sie das?",
+        "options": [
+          "Wie hoch ist die Kaution und wann muss ich sie bezahlen?",
+          "Ich will keine Kaution zahlen.",
+          "Geben Sie mir die Wohnung billiger?",
+          "Warum ist die Miete so teuer?"
+        ],
+        "correctAnswer": "Wie hoch ist die Kaution und wann muss ich sie bezahlen?",
+        "explanation": "Diese Frage ist direkt und professionell und enthält die wichtigsten Informationen."
+      },
+      {
+        "question": "Im Büro: Sie müssen einen wichtigen Termin verschieben. Was sagen Sie zu Ihrem Chef?",
+        "options": [
+          "Entschuldigung, ich muss den Termin am Donnerstag leider verschieben. Wäre Freitag für Sie auch möglich?",
+          "Ich komme am Donnerstag nicht.",
+          "Der Termin passt mir nicht.",
+          "Können wir das später machen?"
+        ],
+        "correctAnswer": "Entschuldigung, ich muss den Termin am Donnerstag leider verschieben. Wäre Freitag für Sie auch möglich?",
+        "explanation": "Diese Antwort ist höflich, enthält eine Entschuldigung und bietet gleich einen alternativen Termin an."
+      },
+      {
+        "question": "In der Apotheke: Sie brauchen ein Medikament gegen Allergie. Was sagen Sie?",
+        "options": [
+          "Ich habe eine Pollenallergie und brauche etwas dagegen. Können Sie mir etwas empfehlen?",
+          "Geben Sie mir Tabletten.",
+          "Ich bin krank.",
+          "Was haben Sie gegen Allergie?"
+        ],
+        "correctAnswer": "Ich habe eine Pollenallergie und brauche etwas dagegen. Können Sie mir etwas empfehlen?",
+        "explanation": "Diese Formulierung beschreibt das Problem genau und bittet höflich um eine Empfehlung."
+      },
+      {
+        "question": "Im Zug: Jemand sitzt auf Ihrem reservierten Platz. Was sagen Sie?",
+        "options": [
+          "Entschuldigung, ich glaube, das ist mein Platz. Ich habe hier eine Reservierung.",
+          "Das ist mein Platz!",
+          "Sie müssen woanders sitzen.",
+          "Gehen Sie weg."
+        ],
+        "correctAnswer": "Entschuldigung, ich glaube, das ist mein Platz. Ich habe hier eine Reservierung.",
+        "explanation": "Diese Aussage ist höflich und bestimmt, ohne konfrontativ zu sein."
+      },
+      {
+        "question": "Bei der Post: Sie möchten ein Paket abholen. Was sagen Sie?",
+        "options": [
+          "Guten Tag, ich möchte ein Paket abholen. Hier ist die Benachrichtigung und mein Ausweis.",
+          "Wo ist mein Paket?",
+          "Ich brauche ein Paket.",
+          "Haben Sie Post für mich?"
+        ],
+        "correctAnswer": "Guten Tag, ich möchte ein Paket abholen. Hier ist die Benachrichtigung und mein Ausweis.",
+        "explanation": "Diese Antwort ist höflich und enthält alle notwendigen Informationen und Dokumente."
+      },
+      {
+        "question": "Im Supermarkt: Sie suchen ein bestimmtes Produkt. Wie fragen Sie einen Mitarbeiter?",
+        "options": [
+          "Entschuldigung, können Sie mir sagen, wo ich die Gewürze finde?",
+          "Wo sind die Gewürze?",
+          "Ich suche etwas.",
+          "Haben Sie Gewürze?"
+        ],
+        "correctAnswer": "Entschuldigung, können Sie mir sagen, wo ich die Gewürze finde?",
+        "explanation": "Diese Frage ist höflich formuliert und klar verständlich."
+      },
+      {
+        "question": "Beim Friseur: Sie möchten Ihre Haare schneiden lassen. Was sagen Sie?",
+        "options": [
+          "Ich hätte gerne die Haare etwa 5 cm kürzer und etwas gestuft.",
+          "Schneiden Sie meine Haare.",
+          "Machen Sie etwas Schönes.",
+          "Nicht zu kurz!"
+        ],
+        "correctAnswer": "Ich hätte gerne die Haare etwa 5 cm kürzer und etwas gestuft.",
+        "explanation": "Diese Anweisung ist präzise und gibt dem Friseur klare Informationen."
+      },{
+        "question": "Im Fitnessstudio: Sie möchten eine Mitgliedschaft kündigen. Was sagen Sie?",
+        "options": [
+          "Ich möchte meine Mitgliedschaft zum nächstmöglichen Termin kündigen. Welche Unterlagen brauchen Sie dafür?",
+          "Ich will nicht mehr kommen.",
+          "Das ist mir zu teuer.",
+          "Können Sie die Mitgliedschaft beenden?"
+        ],
+        "correctAnswer": "Ich möchte meine Mitgliedschaft zum nächstmöglichen Termin kündigen. Welche Unterlagen brauchen Sie dafür?",
+        "explanation": "Diese Formulierung ist professionell und erkundigt sich gleich nach den notwendigen Schritten."
+      },
+      {
+        "question": "An der Universität: Sie haben den Abgabetermin verpasst. Was sagen Sie zum Professor?",
+        "options": [
+          "Entschuldigung, ich hatte leider technische Probleme beim Upload. Könnte ich die Arbeit heute noch einreichen?",
+          "Ich habe die Arbeit nicht geschafft.",
+          "Können Sie mir mehr Zeit geben?",
+          "Das war zu schwer für mich."
+        ],
+        "correctAnswer": "Entschuldigung, ich hatte leider technische Probleme beim Upload. Könnte ich die Arbeit heute noch einreichen?",
+        "explanation": "Diese Erklärung ist höflich, nennt den Grund und macht einen konkreten Vorschlag."
+      },
+      {
+        "question": "Im Telefonladen: Ihr Handy funktioniert nicht richtig. Wie erklären Sie das Problem?",
+        "options": [
+          "Seit dem letzten Update stürzt mein Handy ständig ab und der Akku entlädt sich sehr schnell.",
+          "Mein Handy ist kaputt.",
+          "Ich brauche ein neues Handy.",
+          "Können Sie das reparieren?"
+        ],
+        "correctAnswer": "Seit dem letzten Update stürzt mein Handy ständig ab und der Akku entlädt sich sehr schnell.",
+        "explanation": "Diese Beschreibung ist detailliert und nennt die spezifischen Probleme."
+      },
+      {
+        "question": "Bei der Autowerkstatt: Sie hören ein seltsames Geräusch beim Bremsen. Was sagen Sie?",
+        "options": [
+          "Wenn ich bremse, höre ich ein quietschendes Geräusch, besonders bei niedrigen Geschwindigkeiten.",
+          "Meine Bremsen sind kaputt.",
+          "Das Auto macht Probleme.",
+          "Können Sie mal nachsehen?"
+        ],
+        "correctAnswer": "Wenn ich bremse, höre ich ein quietschendes Geräusch, besonders bei niedrigen Geschwindigkeiten.",
+        "explanation": "Diese Beschreibung ist präzise und gibt wichtige Details zum Problem."
+      },
+      {
+        "question": "Im Café: Sie möchten das WLAN-Passwort wissen. Wie fragen Sie?",
+        "options": [
+          "Entschuldigung, könnten Sie mir bitte das WLAN-Passwort geben?",
+          "Wie ist das Internet?",
+          "Ich brauche WLAN.",
+          "Passwort, bitte!"
+        ],
+        "correctAnswer": "Entschuldigung, könnten Sie mir bitte das WLAN-Passwort geben?",
+        "explanation": "Diese Frage ist höflich und klar formuliert."
+      },
+      {
+        "question": "Bei der Versicherung: Sie möchten einen Schaden melden. Was sagen Sie?",
+        "options": [
+          "Guten Tag, ich möchte einen Wasserschaden in meiner Wohnung melden. Wie gehen wir da am besten vor?",
+          "Meine Wohnung ist kaputt.",
+          "Ich brauche Geld für die Reparatur.",
+          "Wer bezahlt den Schaden?"
+        ],
+        "correctAnswer": "Guten Tag, ich möchte einen Wasserschaden in meiner Wohnung melden. Wie gehen wir da am besten vor?",
+        "explanation": "Diese Einleitung ist professionell und fragt direkt nach dem korrekten Vorgehen."
+      },
+      {
+        "question": "Im Sprachkurs: Sie verstehen einen Begriff nicht. Wie fragen Sie nach?",
+        "options": [
+          "Entschuldigung, könnten Sie den Begriff 'Nachhaltig' bitte noch einmal erklären?",
+          "Was bedeutet das?",
+          "Ich verstehe nicht.",
+          "Das ist zu schwer."
+        ],
+        "correctAnswer": "Entschuldigung, könnten Sie den Begriff 'Nachhaltig' bitte noch einmal erklären?",
+        "explanation": "Diese Frage ist höflich und spezifisch, sie nennt genau, was unklar ist."
+      },
+      {
+        "question": "Bei der Arbeit: Sie brauchen einen Tag Urlaub. Wie fragen Sie Ihren Chef?",
+        "options": [
+          "Wäre es möglich, nächste Woche Freitag einen Tag Urlaub zu nehmen? Die Projektabgabe ist bis dahin fertig.",
+          "Ich nehme Freitag frei.",
+          "Kann ich Urlaub haben?",
+          "Ich komme Freitag nicht."
+        ],
+        "correctAnswer": "Wäre es möglich, nächste Woche Freitag einen Tag Urlaub zu nehmen? Die Projektabgabe ist bis dahin fertig.",
+        "explanation": "Diese Anfrage ist höflich, gibt das Datum an und berücksichtigt die Arbeitsplanung."
+      },
+      {
+        "question": "Im Schuhgeschäft: Die Schuhe drücken nach einem Tag. Was sagen Sie?",
+        "options": [
+          "Ich habe die Schuhe gestern gekauft, aber sie drücken an der Ferse. Kann ich sie umtauschen?",
+          "Die Schuhe sind zu klein.",
+          "Ich will mein Geld zurück.",
+          "Die Schuhe passen nicht."
+        ],
+        "correctAnswer": "Ich habe die Schuhe gestern gekauft, aber sie drücken an der Ferse. Kann ich sie umtauschen?",
+        "explanation": "Diese Beschwerde ist sachlich, nennt das Problem genau und fragt nach einer Lösung."
+      },
+      {
+        "question": "Bei der Fahrschule: Sie möchten sich für den Führerschein anmelden. Was sagen Sie?",
+        "options": [
+          "Guten Tag, ich möchte gerne den Führerschein machen. Können Sie mir sagen, welche Unterlagen ich brauche?",
+          "Ich will Auto fahren lernen.",
+          "Was kostet der Führerschein?",
+          "Wann kann ich anfangen?"
+        ],
+        "correctAnswer": "Guten Tag, ich möchte gerne den Führerschein machen. Können Sie mir sagen, welche Unterlagen ich brauche?",
+        "explanation": "Diese Anfrage ist höflich und zielt direkt auf die notwendigen Informationen ab."
+      },
+          {
+            "question": "Beim Zahnarzt: Sie haben starke Zahnschmerzen. Was sagen Sie?",
+            "options": [
+              "Ich habe seit heute Morgen starke Zahnschmerzen und ein pochendes Gefühl.",
+              "Mein Zahn tut weh.",
+              "Können Sie mir gleich etwas geben?",
+              "Ich glaube, ich brauche eine Zahnreinigung."
+            ],
+            "correctAnswer": "Ich habe seit heute Morgen starke Zahnschmerzen und ein pochendes Gefühl.",
+            "explanation": "Diese Antwort beschreibt das Problem detailliert und gibt dem Zahnarzt wichtige Hinweise zur Diagnose."
+          },
+          {
+            "question": "Im Kino: Sie haben ein Problem mit Ihrer Sitzplatzreservierung. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, ich habe eine Reservierung für diesen Platz. Könnten Sie das bitte überprüfen?",
+              "Das ist nicht mein Sitzplatz.",
+              "Ich will meinen Platz zurück.",
+              "Wer hat diesen Platz reserviert?"
+            ],
+            "correctAnswer": "Entschuldigung, ich habe eine Reservierung für diesen Platz. Könnten Sie das bitte überprüfen?",
+            "explanation": "Die Anfrage ist höflich und liefert klare Informationen zur Reservierung, was Missverständnisse vermeidet."
+          },
+          {
+            "question": "Beim Bäcker: Sie suchen ein bestimmtes Brot. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich hätte gerne das Bauernbrot von heute Morgen. Haben Sie das noch vorrätig?",
+              "Ich will Brot.",
+              "Wo ist euer Brot?",
+              "Brot, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich hätte gerne das Bauernbrot von heute Morgen. Haben Sie das noch vorrätig?",
+            "explanation": "Diese Frage ist präzise und höflich, da sie das gewünschte Produkt und den Zeitpunkt nennt."
+          },
+          {
+            "question": "In der Bibliothek: Sie suchen ein Buch über Geschichte. Wie fragen Sie?",
+            "options": [
+              "Entschuldigen Sie bitte, können Sie mir helfen, das Buch 'Deutsche Geschichte im 20. Jahrhundert' zu finden?",
+              "Wo sind die Bücher?",
+              "Ich suche ein Geschichtsbuch.",
+              "Haben Sie Bücher?"
+            ],
+            "correctAnswer": "Entschuldigen Sie bitte, können Sie mir helfen, das Buch 'Deutsche Geschichte im 20. Jahrhundert' zu finden?",
+            "explanation": "Die Frage ist spezifisch und höflich formuliert, was die Suche in der Bibliothek erleichtert."
+          },
+          {
+            "question": "Im Hotel: Sie möchten den Check-in beschleunigen. Wie formulieren Sie Ihr Anliegen?",
+            "options": [
+              "Guten Tag, ich habe eine Reservierung auf den Namen Müller. Könnten Sie bitte den Check-in einleiten?",
+              "Ich will schnell einchecken.",
+              "Wo ist mein Zimmer?",
+              "Check-in, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich habe eine Reservierung auf den Namen Müller. Könnten Sie bitte den Check-in einleiten?",
+            "explanation": "Diese Anfrage ist höflich und enthält alle notwendigen Informationen für einen reibungslosen Check-in."
+          },
+          {
+            "question": "In einem Elektronikladen: Ihr Laptop zeigt Fehlermeldungen. Wie beschreiben Sie das Problem?",
+            "options": [
+              "Guten Tag, seit gestern funktioniert mein Laptop nicht richtig und zeigt ständig Fehlermeldungen an. Können Sie mir helfen?",
+              "Mein Laptop ist kaputt.",
+              "Ich will ein neues Gerät.",
+              "Was ist mit meinem Laptop?"
+            ],
+            "correctAnswer": "Guten Tag, seit gestern funktioniert mein Laptop nicht richtig und zeigt ständig Fehlermeldungen an. Können Sie mir helfen?",
+            "explanation": "Die detaillierte Problembeschreibung ermöglicht eine gezielte Unterstützung durch den Fachberater."
+          },
+          {
+            "question": "Beim Schneider: Sie möchten Ihr Hemd anpassen lassen. Wie bitten Sie darum?",
+            "options": [
+              "Guten Tag, könnten Sie bitte mein Hemd etwas enger anpassen, besonders im Taillenbereich?",
+              "Mach es kleiner.",
+              "Ich mag dieses Hemd nicht.",
+              "Können Sie das ändern?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie bitte mein Hemd etwas enger anpassen, besonders im Taillenbereich?",
+            "explanation": "Die Anfrage ist spezifisch und höflich, was dem Schneider klare Anweisungen gibt."
+          },
+          {
+            "question": "In der Metzgerei: Sie möchten die Frische des Fleisches erfragen. Wie gehen Sie vor?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte sagen, wann das Rindfleisch geliefert wurde?",
+              "Ist das Fleisch frisch?",
+              "Das Fleisch sieht komisch aus.",
+              "Haben Sie frisches Fleisch?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte sagen, wann das Rindfleisch geliefert wurde?",
+            "explanation": "Die Frage ist höflich und konkret, was eine präzise Antwort zur Frische ermöglicht."
+          },
+          {
+            "question": "Im Museum: Sie interessieren sich für eine aktuelle Ausstellung. Wie fragen Sie nach?",
+            "options": [
+              "Entschuldigen Sie, können Sie mir mehr Informationen über die aktuelle Ausstellung 'Moderne Kunst' geben?",
+              "Was gibt es hier zu sehen?",
+              "Ist das Museum interessant?",
+              "Zeigen Sie mir die Ausstellung."
+            ],
+            "correctAnswer": "Entschuldigen Sie, können Sie mir mehr Informationen über die aktuelle Ausstellung 'Moderne Kunst' geben?",
+            "explanation": "Die Frage ist präzise und zeigt konkretes Interesse, was detaillierte Informationen fördert."
+          },
+          {
+            "question": "Im Park: Sie suchen den Haupteingang. Wie fragen Sie höflich?",
+            "options": [
+              "Entschuldigung, könnten Sie mir bitte sagen, wo sich der Haupteingang des Parks befindet?",
+              "Wo ist der Eingang?",
+              "Wie komme ich rein?",
+              "Ich finde den Eingang nicht."
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie mir bitte sagen, wo sich der Haupteingang des Parks befindet?",
+            "explanation": "Diese höfliche und detaillierte Anfrage erleichtert die Orientierung."
+          },
+          {
+            "question": "Bei der Polizei: Sie möchten einen Vorfall melden. Wie formulieren Sie Ihre Aussage?",
+            "options": [
+              "Guten Tag, ich möchte einen Vorfall melden, bei dem ich Zeuge eines Unfalls geworden bin. Können Sie mir weiterhelfen?",
+              "Da ist etwas passiert.",
+              "Ich will etwas melden.",
+              "Helfen Sie mir bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich möchte einen Vorfall melden, bei dem ich Zeuge eines Unfalls geworden bin. Können Sie mir weiterhelfen?",
+            "explanation": "Die sachliche und detaillierte Meldung enthält alle wichtigen Informationen für die Polizei."
+          },
+          {
+            "question": "In einem Reisebüro: Sie interessieren sich für eine Pauschalreise nach Italien. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für eine Pauschalreise nach Italien. Können Sie mir die Angebote zeigen?",
+              "Ich will nach Italien reisen.",
+              "Welche Reisen haben Sie?",
+              "Zeigen Sie mir Reisepakete."
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für eine Pauschalreise nach Italien. Können Sie mir die Angebote zeigen?",
+            "explanation": "Die spezifische und höfliche Anfrage ermöglicht eine gezielte Beratung im Reisebüro."
+          },
+          {
+            "question": "Bei der Steuerberatung: Sie haben Fragen zu Ihrer Steuererklärung. Wie formulieren Sie Ihr Anliegen?",
+            "options": [
+              "Guten Tag, ich habe einige Fragen zu meiner Steuererklärung und würde gerne Ihre Unterstützung in Anspruch nehmen.",
+              "Meine Steuern machen mir Probleme.",
+              "Wie funktioniert die Steuererklärung?",
+              "Können Sie mir helfen?"
+            ],
+            "correctAnswer": "Guten Tag, ich habe einige Fragen zu meiner Steuererklärung und würde gerne Ihre Unterstützung in Anspruch nehmen.",
+            "explanation": "Die präzise und höfliche Anfrage erleichtert eine fundierte Beratung."
+          },
+          {
+            "question": "In der Bäckerei: Sie möchten einen speziellen Schokoladenkuchen für einen Geburtstag bestellen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich hätte gerne einen Schokoladenkuchen für einen Geburtstag. Können Sie mir die Möglichkeiten erläutern?",
+              "Ich will einen Kuchen.",
+              "Haben Sie Geburtstagskuchen?",
+              "Geben Sie mir einen Schokoladenkuchen."
+            ],
+            "correctAnswer": "Guten Tag, ich hätte gerne einen Schokoladenkuchen für einen Geburtstag. Können Sie mir die Möglichkeiten erläutern?",
+            "explanation": "Diese Anfrage ist präzise und enthält alle Details, die zur richtigen Bestellung notwendig sind."
+          },
+          {
+            "question": "Im Büro: Sie möchten nach einer Gehaltserhöhung fragen. Wie gehen Sie vor?",
+            "options": [
+              "Guten Tag, ich würde gerne ein Gespräch über eine mögliche Gehaltserhöhung führen. Wann hätten Sie Zeit dafür?",
+              "Ich will mehr Geld.",
+              "Können Sie mein Gehalt überprüfen?",
+              "Ich brauche mehr Geld."
+            ],
+            "correctAnswer": "Guten Tag, ich würde gerne ein Gespräch über eine mögliche Gehaltserhöhung führen. Wann hätten Sie Zeit dafür?",
+            "explanation": "Die professionelle und höfliche Anfrage fördert einen konstruktiven Dialog über das Thema Gehaltserhöhung."
+          },
+          {
+            "question": "Beim Autohändler: Sie möchten eine Probefahrt vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für den neuen Audi A4. Könnte ich eine Probefahrt vereinbaren?",
+              "Ich will den Audi ausprobieren.",
+              "Testfahrt, bitte.",
+              "Fahren Sie mit mir."
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für den neuen Audi A4. Könnte ich eine Probefahrt vereinbaren?",
+            "explanation": "Die Anfrage ist höflich und präzise, was die Terminvereinbarung für eine Probefahrt erleichtert."
+          },
+          {
+            "question": "Bei der Tankstelle: Sie möchten nach der passenden Ölart für Ihr Auto fragen. Wie formulieren Sie das?",
+            "options": [
+              "Entschuldigung, könnten Sie mir sagen, welche Ölart für einen VW Golf empfohlen wird?",
+              "Welches Öl brauche ich?",
+              "Geben Sie mir das richtige Öl.",
+              "Welches Öl ist gut?"
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie mir sagen, welche Ölart für einen VW Golf empfohlen wird?",
+            "explanation": "Die Frage ist präzise und höflich, was eine fachgerechte Beratung zur Ölwahl ermöglicht."
+          },
+          {
+            "question": "Im Theater: Sie suchen eine Programmbroschüre. Wie fragen Sie höflich danach?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte eine Broschüre zum aktuellen Spielplan aushändigen?",
+              "Wo ist der Spielplan?",
+              "Ich will Infos zum Theater.",
+              "Haben Sie eine Broschüre?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte eine Broschüre zum aktuellen Spielplan aushändigen?",
+            "explanation": "Diese Anfrage ist höflich und präzise, was zu einer schnellen Hilfe führt."
+          },
+          {
+            "question": "Im Reformhaus: Sie interessieren sich für Bio-Produkte. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte erklären, welche Bio-Produkte heute im Angebot sind?",
+              "Wo sind die Bio-Produkte?",
+              "Ich will Bio-Kram kaufen.",
+              "Haben Sie frische Produkte?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte erklären, welche Bio-Produkte heute im Angebot sind?",
+            "explanation": "Die Frage ist freundlich und detailliert, was dem Verkäufer ermöglicht, gezielt zu beraten."
+          },
+          {
+            "question": "Beim Fotografen: Sie möchten einen Termin für ein Familienfotoshooting vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für ein Familienfotoshooting. Wann wäre der nächste freie Termin?",
+              "Ich will Fotos machen.",
+              "Wann fotografieren Sie?",
+              "Haben Sie Zeit?"
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für ein Familienfotoshooting. Wann wäre der nächste freie Termin?",
+            "explanation": "Die Anfrage ist konkret und höflich, was eine reibungslose Terminvereinbarung ermöglicht."
+          },
+          {
+            "question": "In einem Bekleidungsgeschäft: Sie suchen nach Ihrer Größe. Wie fragen Sie?",
+            "options": [
+              "Entschuldigen Sie bitte, könnten Sie mir sagen, ob dieses Hemd in Größe M verfügbar ist?",
+              "Haben Sie das in M?",
+              "Ich suche meine Größe.",
+              "Gibt es das in meiner Größe?"
+            ],
+            "correctAnswer": "Entschuldigen Sie bitte, könnten Sie mir sagen, ob dieses Hemd in Größe M verfügbar ist?",
+            "explanation": "Die Frage ist klar und höflich, was eine präzise Auskunft ermöglicht."
+          },
+          {
+            "question": "Im Schreibwarengeschäft: Sie suchen spezielle Fineliner. Wie formulieren Sie Ihr Anliegen?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte sagen, ob Sie Fineliner in verschiedenen Farben führen?",
+              "Haben Sie Stifte?",
+              "Ich will bunte Stifte.",
+              "Wo sind die Fineliner?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte sagen, ob Sie Fineliner in verschiedenen Farben führen?",
+            "explanation": "Die Anfrage ist spezifisch und höflich, was zu einer schnellen und klaren Antwort führt."
+          },
+          {
+            "question": "Im Baumarkt: Sie benötigen eine Bohrmaschine. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich suche eine Bohrmaschine für den Heimwerkerbedarf. Können Sie mir bitte weiterhelfen?",
+              "Wo ist das Werkzeug?",
+              "Ich brauche eine Bohrmaschine.",
+              "Zeigen Sie mir den Baumarkt."
+            ],
+            "correctAnswer": "Guten Tag, ich suche eine Bohrmaschine für den Heimwerkerbedarf. Können Sie mir bitte weiterhelfen?",
+            "explanation": "Diese Frage ist präzise und höflich, was die Beratung im Baumarkt erleichtert."
+          },
+          {
+            "question": "In einem Restaurant: Sie möchten sich über vegetarische Gerichte informieren. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, könnten Sie mir bitte sagen, welche vegetarischen Gerichte heute angeboten werden?",
+              "Haben Sie kein Fleisch?",
+              "Ich esse kein Fleisch.",
+              "Was gibt es ohne Fleisch?"
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie mir bitte sagen, welche vegetarischen Gerichte heute angeboten werden?",
+            "explanation": "Die Frage ist höflich und spezifisch, was eine klare Antwort über die Speisenauswahl ermöglicht."
+          },
+          {
+            "question": "Beim Elektriker: Sie haben Probleme mit der Beleuchtung. Wie formulieren Sie Ihr Anliegen?",
+            "options": [
+              "Guten Tag, seit gestern flackern die Lichter in meinem Wohnzimmer. Könnten Sie sich das bitte ansehen?",
+              "Das Licht ist kaputt.",
+              "Ich will neue Lichter.",
+              "Reparieren Sie das Licht."
+            ],
+            "correctAnswer": "Guten Tag, seit gestern flackern die Lichter in meinem Wohnzimmer. Könnten Sie sich das bitte ansehen?",
+            "explanation": "Die detaillierte Problembeschreibung hilft dem Elektriker, das Problem schnell zu erkennen."
+          },
+          {
+            "question": "In der Konditorei: Sie möchten wissen, ob ein Kuchen Allergene enthält. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, enthält dieser Kuchen Nüsse oder Milchprodukte, da ich eine Allergie habe?",
+              "Hat der Kuchen Allergene?",
+              "Ich bin allergisch.",
+              "Gibt es einen allergiefreundlichen Kuchen?"
+            ],
+            "correctAnswer": "Entschuldigung, enthält dieser Kuchen Nüsse oder Milchprodukte, da ich eine Allergie habe?",
+            "explanation": "Die Frage ist höflich und informiert über die Notwendigkeit, auf Allergene zu achten."
+          },
+          {
+            "question": "Bei einem Umzugsunternehmen: Sie möchten Informationen zu einem Umzug ins Ausland erhalten. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte erläutern, welche Dienstleistungen Sie für einen Umzug ins Ausland anbieten?",
+              "Was kostet ein Umzug?",
+              "Können Sie umziehen?",
+              "Wie funktioniert der Umzug?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte erläutern, welche Dienstleistungen Sie für einen Umzug ins Ausland anbieten?",
+            "explanation": "Die Anfrage ist detailliert und höflich, was eine umfassende Beratung ermöglicht."
+          },
+          {
+            "question": "Im Kindergarten: Sie möchten einen Termin für den Elternsprechtag vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich würde gerne einen Termin für den Elternsprechtag meines Kindes vereinbaren. Wann wäre das möglich?",
+              "Wann können wir reden?",
+              "Ich will den Elternsprechtag.",
+              "Haben Sie einen Termin?"
+            ],
+            "correctAnswer": "Guten Tag, ich würde gerne einen Termin für den Elternsprechtag meines Kindes vereinbaren. Wann wäre das möglich?",
+            "explanation": "Die Anfrage ist höflich und enthält alle relevanten Informationen für eine Terminvereinbarung."
+          },
+          {
+            "question": "Bei der Müllabfuhr: Sie möchten den nächsten Sperrmülltermin erfragen. Wie gehen Sie vor?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte sagen, wann der nächste Sperrmülltermin in unserer Gegend ist?",
+              "Wann kommt der Müll?",
+              "Ich will meinen Müll rausbringen.",
+              "Wann wird abgeholt?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte sagen, wann der nächste Sperrmülltermin in unserer Gegend ist?",
+            "explanation": "Die Frage ist klar und höflich, was eine präzise Auskunft ermöglicht."
+          },
+          {
+            "question": "In einer Werkstatt: Sie möchten einen Termin für die Fahrzeuginspektion vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, mein Auto benötigt eine Inspektion. Wann wäre der nächste verfügbare Termin?",
+              "Mein Auto muss überprüft werden.",
+              "Wann kommt der Mechaniker?",
+              "Können Sie das Auto anschauen?"
+            ],
+            "correctAnswer": "Guten Tag, mein Auto benötigt eine Inspektion. Wann wäre der nächste verfügbare Termin?",
+            "explanation": "Die höfliche und präzise Anfrage erleichtert die Terminfindung in der Werkstatt."
+          },
+          {
+            "question": "Auf einem Campingplatz: Sie möchten einen Stellplatz mit Stromanschluss reservieren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich möchte einen Campingplatz-Stellplatz mit Stromanschluss reservieren. Ist dies möglich?",
+              "Haben Sie einen Platz mit Strom?",
+              "Wo ist der Strom?",
+              "Ich brauche Strom am Campingplatz."
+            ],
+            "correctAnswer": "Guten Tag, ich möchte einen Campingplatz-Stellplatz mit Stromanschluss reservieren. Ist dies möglich?",
+            "explanation": "Die Anfrage ist höflich und detailliert, was die Reservierung erleichtert."
+          },
+          {
+            "question": "In einer Tierarztpraxis: Sie möchten einen Termin für eine Routineuntersuchung Ihres Hundes vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich möchte einen Termin für eine Routineuntersuchung meines Hundes vereinbaren. Wann wäre das möglich?",
+              "Mein Hund ist krank.",
+              "Ich brauche einen Tierarzt.",
+              "Können Sie meinen Hund sehen?"
+            ],
+            "correctAnswer": "Guten Tag, ich möchte einen Termin für eine Routineuntersuchung meines Hundes vereinbaren. Wann wäre das möglich?",
+            "explanation": "Die Anfrage ist präzise und höflich, was eine reibungslose Terminvereinbarung ermöglicht."
+          },
+          {
+            "question": "Im Nagelstudio: Sie möchten einen Termin für eine Maniküre buchen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich würde gerne einen Termin für eine Maniküre buchen. Wann hätten Sie einen freien Slot?",
+              "Ich will meine Nägel machen lassen.",
+              "Wann ist der nächste Termin?",
+              "Maniküre, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich würde gerne einen Termin für eine Maniküre buchen. Wann hätten Sie einen freien Slot?",
+            "explanation": "Die höfliche und präzise Anfrage erleichtert die Terminvereinbarung im Nagelstudio."
+          },
+          {
+            "question": "Beim Arzt: Sie möchten einen Termin für eine Routineuntersuchung vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich möchte einen Termin für eine Routineuntersuchung vereinbaren. Wann wäre der nächste freie Termin?",
+              "Ich brauche einen Arzttermin.",
+              "Wann kann ich kommen?",
+              "Ich will einen Check-up."
+            ],
+            "correctAnswer": "Guten Tag, ich möchte einen Termin für eine Routineuntersuchung vereinbaren. Wann wäre der nächste freie Termin?",
+            "explanation": "Die Anfrage ist sachlich und höflich, was die Terminfindung erleichtert."
+          },
+          {
+            "question": "In der Rechtsberatung: Sie haben Fragen zu einem Vertragsentwurf. Wie formulieren Sie Ihr Anliegen?",
+            "options": [
+              "Guten Tag, ich habe einige Fragen zu einem Vertragsentwurf und würde gerne Ihre rechtliche Einschätzung einholen.",
+              "Dieser Vertrag ist komisch.",
+              "Helfen Sie mir bei meinem Vertrag.",
+              "Können Sie den Vertrag prüfen?"
+            ],
+            "correctAnswer": "Guten Tag, ich habe einige Fragen zu einem Vertragsentwurf und würde gerne Ihre rechtliche Einschätzung einholen.",
+            "explanation": "Die klare und sachliche Anfrage ermöglicht eine fundierte rechtliche Beratung."
+          },
+          {
+            "question": "Bei der Fluggesellschaft: Sie möchten Ihr Ticket umbuchen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich würde gerne mein Flugticket umbuchen. Können Sie mir die verfügbaren Alternativen nennen?",
+              "Ich will umgebucht werden.",
+              "Kann ich den Flug ändern?",
+              "Haben Sie einen anderen Flug?"
+            ],
+            "correctAnswer": "Guten Tag, ich würde gerne mein Flugticket umbuchen. Können Sie mir die verfügbaren Alternativen nennen?",
+            "explanation": "Die höfliche und präzise Anfrage erleichtert die Umbuchung durch die Fluggesellschaft."
+          },
+          {
+            "question": "In einer Steuerberatung: Sie möchten Informationen zur Steuererstattung erhalten. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte erklären, wie hoch meine voraussichtliche Steuererstattung sein könnte?",
+              "Bekomme ich Geld zurück?",
+              "Wie viel Steuern zahle ich?",
+              "Ist eine Steuererstattung möglich?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte erklären, wie hoch meine voraussichtliche Steuererstattung sein könnte?",
+            "explanation": "Die detaillierte und höfliche Anfrage ermöglicht eine fundierte Auskunft zur Steuererstattung."
+          },
+          {
+            "question": "Bei der Post: Sie möchten ein Problem mit einer verlorenen Sendung melden. Wie formulieren Sie das?",
+            "options": [
+              "Guten Tag, ich möchte melden, dass mein Paket seit einer Woche nicht angekommen ist. Können Sie mir helfen?",
+              "Wo ist mein Paket?",
+              "Ich habe ein Problem mit meiner Lieferung.",
+              "Mein Paket fehlt."
+            ],
+            "correctAnswer": "Guten Tag, ich möchte melden, dass mein Paket seit einer Woche nicht angekommen ist. Können Sie mir helfen?",
+            "explanation": "Die sachliche und detaillierte Meldung erleichtert eine schnelle Klärung des Problems."
+          },
+          {
+            "question": "In einem Schönheitssalon: Sie möchten eine Gesichtsbehandlung buchen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für eine Gesichtsbehandlung. Haben Sie in dieser Woche noch freie Termine?",
+              "Ich will mir was fürs Gesicht machen lassen.",
+              "Haben Sie Gesichtsbehandlungen?",
+              "Buchen Sie mir einen Termin."
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für eine Gesichtsbehandlung. Haben Sie in dieser Woche noch freie Termine?",
+            "explanation": "Die höfliche und präzise Anfrage ermöglicht eine unkomplizierte Terminvereinbarung."
+          },
+          {
+            "question": "In der Bibliothek: Sie möchten ein Zeitschriftenabonnement abschließen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für das Abonnement der aktuellen Wissenschaftszeitschrift. Können Sie mir mehr Informationen geben?",
+              "Haben Sie Zeitschriften?",
+              "Ich will abonnieren.",
+              "Zeitschriften, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für das Abonnement der aktuellen Wissenschaftszeitschrift. Können Sie mir mehr Informationen geben?",
+            "explanation": "Die präzise und höfliche Anfrage ermöglicht eine fundierte Beratung zum Abonnement."
+          },
+          {
+            "question": "Im Musikgeschäft: Sie suchen nach einer akustischen Gitarre. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für eine akustische Gitarre. Können Sie mir bitte die Modelle zeigen?",
+              "Ich will eine Gitarre.",
+              "Welche Instrumente haben Sie?",
+              "Gitarre, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für eine akustische Gitarre. Können Sie mir bitte die Modelle zeigen?",
+            "explanation": "Die spezifische und höfliche Anfrage führt zu einer kompetenten Beratung im Musikgeschäft."
+          },
+          {
+            "question": "Im Schuhgeschäft: Sie möchten sich über das Rückgaberecht informieren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte erklären, wie das Rückgaberecht in Ihrem Geschäft funktioniert?",
+              "Kann ich die Schuhe zurückgeben?",
+              "Was mache ich, wenn sie nicht passen?",
+              "Wie läuft die Rückgabe ab?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte erklären, wie das Rückgaberecht in Ihrem Geschäft funktioniert?",
+            "explanation": "Die sachliche und präzise Anfrage ermöglicht eine klare Auskunft zum Rückgabeverfahren."
+          },
+          {
+            "question": "Bei der Bank: Sie möchten einen Kredit beantragen. Wie formulieren Sie Ihre Anfrage?",
+            "options": [
+              "Guten Tag, ich interessiere mich für einen Kredit. Könnten Sie mir bitte die Konditionen und Voraussetzungen erläutern?",
+              "Ich will einen Kredit.",
+              "Geben Sie mir einen Kredit.",
+              "Wie viel Geld kann ich leihen?"
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für einen Kredit. Könnten Sie mir bitte die Konditionen und Voraussetzungen erläutern?",
+            "explanation": "Die höfliche und detaillierte Anfrage ermöglicht eine fundierte Beratung bezüglich des Kredits."
+          },
+          {
+            "question": "Im Möbelhaus: Sie möchten sich nach der Lieferzeit erkundigen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, können Sie mir bitte sagen, wie lange die Lieferung des bestellten Sofas voraussichtlich dauert?",
+              "Wann kommt mein Sofa?",
+              "Ich will wissen, wann es geliefert wird.",
+              "Wie lange dauert die Lieferung?"
+            ],
+            "correctAnswer": "Guten Tag, können Sie mir bitte sagen, wie lange die Lieferung des bestellten Sofas voraussichtlich dauert?",
+            "explanation": "Die präzise und höfliche Frage erleichtert die Klärung der Lieferzeiten."
+          },
+          {
+            "question": "In einem Reisebüro: Sie möchten nach möglichen Reiserouten fragen. Wie formulieren Sie Ihr Anliegen?",
+            "options": [
+              "Guten Tag, könnten Sie mir bitte verschiedene Reiserouten für eine Rundreise durch Europa vorschlagen?",
+              "Welche Reisen haben Sie?",
+              "Zeigen Sie mir Angebote.",
+              "Ich will Europa bereisen."
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie mir bitte verschiedene Reiserouten für eine Rundreise durch Europa vorschlagen?",
+            "explanation": "Die detaillierte und höfliche Anfrage ermöglicht eine umfassende Beratung zu den Reiserouten."
+          },
+          {
+            "question": "Im Fitnessstudio: Sie interessieren sich für Personal Training. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für Personal Training. Können Sie mir bitte die verschiedenen Pakete und Preise erläutern?",
+              "Ich will einen Trainer.",
+              "Wie funktioniert Personal Training?",
+              "Was kostet ein Trainer?"
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für Personal Training. Können Sie mir bitte die verschiedenen Pakete und Preise erläutern?",
+            "explanation": "Die spezifische und höfliche Anfrage führt zu einer fundierten Auskunft über die Angebote."
+          },
+          {
+            "question": "Bei der Autowerkstatt: Sie möchten einen Termin für die Inspektion Ihres Fahrzeugs vereinbaren. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, mein Auto benötigt eine Inspektion. Wann wäre der nächste verfügbare Termin?",
+              "Mein Auto muss in die Werkstatt.",
+              "Wann kann ich das Auto bringen?",
+              "Ich brauche eine Inspektion."
+            ],
+            "correctAnswer": "Guten Tag, mein Auto benötigt eine Inspektion. Wann wäre der nächste verfügbare Termin?",
+            "explanation": "Die höfliche und präzise Anfrage erleichtert die Terminfindung in der Werkstatt."
+          },
+          {
+            "question": "In der Bibliothek: Sie möchten Ihr Zeitschriftenabonnement verlängern. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich würde gerne mein Abonnement für die 'Wissenschaftliche Zeitschrift' verlängern. Wie gehe ich vor?",
+              "Wie verlängere ich mein Abo?",
+              "Ich will das Abo erneuern.",
+              "Was muss ich machen?"
+            ],
+            "correctAnswer": "Guten Tag, ich würde gerne mein Abonnement für die 'Wissenschaftliche Zeitschrift' verlängern. Wie gehe ich vor?",
+            "explanation": "Die detaillierte und höfliche Anfrage ermöglicht eine klare Anleitung zur Aboverlängerung."
+          },
+          {
+            "question": "Im Restaurant: Sie möchten eine Reservierung für eine größere Gruppe vornehmen. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich möchte einen Tisch für sechs Personen reservieren. Haben Sie noch einen freien Tisch für heute Abend?",
+              "Ich brauche einen Tisch.",
+              "Reservieren Sie einen Tisch für mich.",
+              "Gibt es Platz für eine Gruppe?"
+            ],
+            "correctAnswer": "Guten Tag, ich möchte einen Tisch für sechs Personen reservieren. Haben Sie noch einen freien Tisch für heute Abend?",
+            "explanation": "Die präzise und höfliche Anfrage ermöglicht eine schnelle und klare Reservierung."
+          },
+          {
+            "question": "Beim Reisebüro: Sie möchten Informationen zu einer Städtereise nach Berlin erhalten. Wie fragen Sie?",
+            "options": [
+              "Guten Tag, ich interessiere mich für eine Städtereise nach Berlin. Können Sie mir bitte verschiedene Angebote unterbreiten?",
+              "Ich will nach Berlin reisen.",
+              "Welche Städtereisen haben Sie?",
+              "Zeigen Sie mir Berlin-Angebote."
+            ],
+            "correctAnswer": "Guten Tag, ich interessiere mich für eine Städtereise nach Berlin. Können Sie mir bitte verschiedene Angebote unterbreiten?",
+            "explanation": "Die klare und höfliche Anfrage führt zu einer umfassenden Beratung bezüglich der Städtereise."
+          }
+      
+    ]
+  }
