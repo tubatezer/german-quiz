@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card.jsx';
 import { Button } from '@/components/ui/button.jsx';
 import { AlertCircle, CheckCircle, ArrowLeft, ArrowRight, List, BookOpen, Bookmark, X } from 'lucide-react';
@@ -18,7 +18,7 @@ const GermanQuiz = () => {
     reading: "Leseverstehen"
   };
 
-
+  // Initialize with unshuffled questions
   const [questions, setQuestions] = useState({
     grammar: grammarQuestions.grammar,
     vocabulary: vocabularyQuestions.vocabulary,
@@ -36,6 +36,36 @@ const GermanQuiz = () => {
   const [bookmarkedQuestions, setBookmarkedQuestions] = useState({});
   const [studyMode, setStudyMode] = useState('quiz');
 
+  const getShuffledQuestion = (question) => {
+    const optionPairs = question.options.map((option, index) => ({
+      option,
+      isCorrect: option === question.correctAnswer
+    }));
+
+    const shuffledPairs = [...optionPairs].sort(() => Math.random() - 0.5);
+    const newCorrectIndex = shuffledPairs.findIndex(pair => pair.isCorrect);
+
+    return {
+      ...question,
+      options: shuffledPairs.map(pair => pair.option),
+      correctAnswer: question.correctAnswer,
+      shuffledCorrectIndex: newCorrectIndex
+    };
+  };
+
+  // Shuffle questions after initial render
+  useEffect(() => {
+    const shuffledQuestions = {};
+    Object.keys(questions).forEach(category => {
+      if (questions[category]?.length > 0) {
+        shuffledQuestions[category] = questions[category].map(getShuffledQuestion);
+      } else {
+        shuffledQuestions[category] = [];
+      }
+    });
+    setQuestions(shuffledQuestions);
+  }, []);
+
   const currentQuestions = questions[currentCategory];
 
   const handleAnswerSelect = (answer) => {
@@ -46,8 +76,9 @@ const GermanQuiz = () => {
     setUserAnswers(newUserAnswers);
     setShowResult(true);
     
+    const currentQ = currentQuestions[currentQuestion];
     if (!userAnswers[`${currentCategory}-${currentQuestion}`] && 
-        answer === currentQuestions[currentQuestion].correctAnswer) {
+        answer === currentQ.options[currentQ.shuffledCorrectIndex]) {
       setScore(score + 1);
     }
   };
@@ -79,6 +110,12 @@ const GermanQuiz = () => {
 
   const handleCategoryChange = (category) => {
     setCurrentCategory(category);
+    // Shuffle questions for the new category
+    const shuffledQuestions = questions[category].map(getShuffledQuestion);
+    setQuestions(prev => ({
+      ...prev,
+      [category]: shuffledQuestions
+    }));
     resetQuiz();
   };
 
@@ -205,7 +242,7 @@ const GermanQuiz = () => {
                     onClick={() => !showResult && handleAnswerSelect(option)}
                     className={`w-full justify-start text-left h-auto py-3 px-4 border ${
                       showResult
-                        ? option === currentQuestions[currentQuestion].correctAnswer
+                        ? index === currentQuestions[currentQuestion].shuffledCorrectIndex
                           ? 'bg-green-500 hover:bg-green-600 border-green-600 text-white'
                           : option === userAnswers[`${currentCategory}-${currentQuestion}`]
                           ? 'bg-red-500 hover:bg-red-600 border-red-600 text-white'
@@ -216,11 +253,12 @@ const GermanQuiz = () => {
                     variant="outline"
                   >
                     {option}
-                    {showResult && option === currentQuestions[currentQuestion].correctAnswer && (
+                    {showResult && index === currentQuestions[currentQuestion].shuffledCorrectIndex && (
                       <CheckCircle className="ml-2 h-5 w-4" />
                     )}
-                    {showResult && option === userAnswers[`${currentCategory}-${currentQuestion}`] && 
-                     option !== currentQuestions[currentQuestion].correctAnswer && (
+                    {showResult && 
+                     option === userAnswers[`${currentCategory}-${currentQuestion}`] && 
+                     index !== currentQuestions[currentQuestion].shuffledCorrectIndex && (
                       <AlertCircle className="ml-2 h-5 w-4" />
                     )}
                   </Button>
@@ -260,7 +298,6 @@ const GermanQuiz = () => {
           <Button 
             onClick={handleFinishTest}
             className="w-full mt-4 border border-slate-200"
-            variant="default"
           >
             Finish Test
           </Button>
