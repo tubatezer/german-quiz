@@ -363,6 +363,115 @@
         "options": ["sterben", "picknicken", "Sport machen", "schlafen"],
         "correctAnswer": "sterben",
         "explanation": "Diese umgangssprachliche Redewendung bedeutet 'sterben' (wird oft scherzhaft verwendet)."
+      },{
+        "question": "Was bedeutet 'jemandem auf den Zahn fühlen'?",
+        "options": [
+          "jemanden intensiv befragen",
+          "jemanden kritisieren",
+          "jemanden füttern",
+          "jemanden necken"
+        ],
+        "correctAnswer": "jemanden intensiv befragen",
+        "explanation": "Diese Redewendung bedeutet, dass man jemanden gründlich und detailliert nach Informationen befragt."
+      },
+      {
+        "question": "Was bedeutet 'in den sauren Apfel beißen'?",
+        "options": [
+          "eine unangenehme Aufgabe erledigen",
+          "einen Apfel essen",
+          "sauer auf jemanden sein",
+          "sich zurückziehen"
+        ],
+        "correctAnswer": "eine unangenehme Aufgabe erledigen",
+        "explanation": "Diese Redewendung beschreibt, dass man sich einer unangenehmen oder schwierigen Pflicht stellen muss."
+      },
+      {
+        "question": "Was bedeutet 'das ist mir Wurst'?",
+        "options": [
+          "es ist mir egal",
+          "ich esse gerne Wurst",
+          "ich hasse Wurst",
+          "ich finde das lecker"
+        ],
+        "correctAnswer": "es ist mir egal",
+        "explanation": "Diese Redewendung wird verwendet, um Gleichgültigkeit gegenüber einer Sache auszudrücken."
+      },
+      {
+        "question": "Was bedeutet 'alle viere von sich strecken'?",
+        "options": [
+          "sich richtig entspannen",
+          "sich ausruhen",
+          "sportlich sein",
+          "genau arbeiten"
+        ],
+        "correctAnswer": "sich richtig entspannen",
+        "explanation": "Diese Redewendung beschreibt, dass man sich völlig entspannt und alle Anspannungen loslässt."
+      },
+      {
+        "question": "Was bedeutet 'aus allen Wolken fallen'?",
+        "options": [
+          "überrascht sein",
+          "sich in den Wolken verlieren",
+          "einsam sein",
+          "verwirrt sein"
+        ],
+        "correctAnswer": "überrascht sein",
+        "explanation": "Diese Redewendung drückt aus, dass man von einer unerwarteten Nachricht oder Situation völlig überrascht ist."
+      },
+      {
+        "question": "Was bedeutet 'sich zum Affen machen'?",
+        "options": [
+          "sich lächerlich machen",
+          "etwas verlieren",
+          "sich verstecken",
+          "sich amüsieren"
+        ],
+        "correctAnswer": "sich lächerlich machen",
+        "explanation": "Diese Redewendung bedeutet, dass man sich in einer Situation so verhält, dass man unfreiwillig zum Gespött wird."
+      },
+      {
+        "question": "Was bedeutet 'das Handtuch werfen'?",
+        "options": [
+          "aufgeben",
+          "sich abtrocknen",
+          "Sport treiben",
+          "jemanden überraschen"
+        ],
+        "correctAnswer": "aufgeben",
+        "explanation": "Diese Redewendung stammt aus dem Boxsport und bedeutet, dass man eine Niederlage eingesteht oder aufhört zu kämpfen."
+      },
+      {
+        "question": "Was bedeutet 'jemanden über den Tisch ziehen'?",
+        "options": [
+          "jemanden betrügen",
+          "jemanden umarmen",
+          "jemanden unterstützen",
+          "jemanden ignorieren"
+        ],
+        "correctAnswer": "jemanden betrügen",
+        "explanation": "Diese Redewendung wird verwendet, wenn jemand bei einem Geschäft oder einer Verhandlung unfair behandelt oder betrogen wird."
+      },
+      {
+        "question": "Was bedeutet 'aus der Reihe tanzen'?",
+        "options": [
+          "anders sein als der Rest",
+          "gut tanzen",
+          "immer folgen",
+          "sich zurückhalten"
+        ],
+        "correctAnswer": "anders sein als der Rest",
+        "explanation": "Diese Redewendung beschreibt, dass man sich nicht an die üblichen Normen oder Regeln hält und dadurch auffällt."
+      },
+      {
+        "question": "Was bedeutet 'den Nagel auf den Kopf treffen'?",
+        "options": [
+          "genau das Richtige sagen",
+          "einen Nagel einschlagen",
+          "unbedacht handeln",
+          "schnell entscheiden"
+        ],
+        "correctAnswer": "genau das Richtige sagen",
+        "explanation": "Diese Redewendung wird genutzt, um auszudrücken, dass man eine Situation oder ein Problem exakt erfasst und treffend formuliert hat."
       }
     ]
   }

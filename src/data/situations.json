@@ -768,6 +768,389 @@
             ],
             "correctAnswer": "Guten Tag, ich interessiere mich für eine Städtereise nach Berlin. Können Sie mir bitte verschiedene Angebote unterbreiten?",
             "explanation": "Die klare und höfliche Anfrage führt zu einer umfassenden Beratung bezüglich der Städtereise."
+          },{
+            "question": "Im Fundbüro: Sie haben Ihren Rucksack im Bus vergessen. Was sagen Sie?",
+            "options": [
+              "Guten Tag, ich habe gestern meinen schwarzen Rucksack in der Buslinie 100 vergessen. Wurde so einer abgegeben?",
+              "Ich suche meinen Rucksack.",
+              "Haben Sie einen Rucksack?",
+              "Mein Rucksack ist weg."
+            ],
+            "correctAnswer": "Guten Tag, ich habe gestern meinen schwarzen Rucksack in der Buslinie 100 vergessen. Wurde so einer abgegeben?",
+            "explanation": "Diese Beschreibung enthält alle wichtigen Details: was, wann, wo und wie der Gegenstand aussieht."
+          },
+          {
+            "question": "Im Hotel: Die Klimaanlage funktioniert nicht. Wie beschweren Sie sich an der Rezeption?",
+            "options": [
+              "Entschuldigung, die Klimaanlage in Zimmer 304 funktioniert nicht. Könnten Sie das bitte überprüfen lassen?",
+              "Es ist zu heiß im Zimmer.",
+              "Die Klimaanlage ist kaputt.",
+              "Ich will ein anderes Zimmer."
+            ],
+            "correctAnswer": "Entschuldigung, die Klimaanlage in Zimmer 304 funktioniert nicht. Könnten Sie das bitte überprüfen lassen?",
+            "explanation": "Diese Beschwerde ist höflich, nennt die Zimmernummer und bittet konkret um Hilfe."
+          },
+          {
+            "question": "Beim Bäcker: Sie möchten Brot vorbestellen. Was sagen Sie?",
+            "options": [
+              "Ich möchte gerne für Samstag zwei Vollkornbrote vorbestellen. Wann kann ich sie abholen?",
+              "Ich brauche zwei Brote.",
+              "Haben Sie Brot?",
+              "Samstag will ich Brot."
+            ],
+            "correctAnswer": "Ich möchte gerne für Samstag zwei Vollkornbrote vorbestellen. Wann kann ich sie abholen?",
+            "explanation": "Diese Bestellung ist präzise und fragt gleich nach der Abholzeit."
+          },
+          {
+            "question": "In der Bibliothek: Sie suchen ein bestimmtes Buch. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, können Sie mir sagen, wo ich Bücher über deutsche Geschichte finde? Ich suche speziell etwas über die Nachkriegszeit.",
+              "Wo sind die Geschichtsbücher?",
+              "Ich brauche ein Buch.",
+              "Haben Sie Bücher über Geschichte?"
+            ],
+            "correctAnswer": "Entschuldigung, können Sie mir sagen, wo ich Bücher über deutsche Geschichte finde? Ich suche speziell etwas über die Nachkriegszeit.",
+            "explanation": "Diese Frage ist höflich und spezifiziert genau, wonach gesucht wird."
+          },
+          {
+            "question": "Im Internetcafé: Ihr Computer funktioniert nicht. Was sagen Sie?",
+            "options": [
+              "Entschuldigung, mein Computer (Nr. 5) startet das Programm nicht. Können Sie mir bitte helfen?",
+              "Der Computer ist kaputt.",
+              "Es funktioniert nicht.",
+              "Ich brauche einen anderen Computer."
+            ],
+            "correctAnswer": "Entschuldigung, mein Computer (Nr. 5) startet das Programm nicht. Können Sie mir bitte helfen?",
+            "explanation": "Diese Problembeschreibung ist spezifisch und enthält die relevanten Informationen."
+          },
+          {
+            "question": "Im Reisebüro: Sie möchten eine Reise umbuchen. Was sagen Sie?",
+            "options": [
+              "Ich muss leider meine Reise nach Italien vom 15. Juli auf August verschieben. Welche Möglichkeiten gibt es?",
+              "Ich will nicht im Juli fahren.",
+              "Können Sie die Reise ändern?",
+              "Das Datum passt nicht."
+            ],
+            "correctAnswer": "Ich muss leider meine Reise nach Italien vom 15. Juli auf August verschieben. Welche Möglichkeiten gibt es?",
+            "explanation": "Diese Anfrage enthält alle wichtigen Details und fragt nach Alternativen."
+          },
+          {
+            "question": "Beim Zahnarzt: Sie haben starke Zahnschmerzen. Wie beschreiben Sie das Problem?",
+            "options": [
+              "Ich habe seit zwei Tagen starke Schmerzen im hinteren Backenzahn rechts oben, besonders beim Kauen.",
+              "Mein Zahn tut weh.",
+              "Ich brauche eine Behandlung.",
+              "Können Sie den Zahn reparieren?"
+            ],
+            "correctAnswer": "Ich habe seit zwei Tagen starke Schmerzen im hinteren Backenzahn rechts oben, besonders beim Kauen.",
+            "explanation": "Diese Beschreibung ist präzise und enthält alle relevanten Informationen für den Zahnarzt."
+          },
+          {
+            "question": "Im Schreibwarenladen: Sie suchen spezielle Stifte. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, haben Sie feine Filzstifte in verschiedenen Farben für Kalligraphie?",
+              "Wo sind die Stifte?",
+              "Ich brauche Filzstifte.",
+              "Haben Sie Stifte zum Schreiben?"
+            ],
+            "correctAnswer": "Entschuldigung, haben Sie feine Filzstifte in verschiedenen Farben für Kalligraphie?",
+            "explanation": "Diese Frage ist spezifisch und nennt den genauen Verwendungszweck."
+          },
+          {
+            "question": "Im Copyshop: Sie möchten ein Dokument beidseitig drucken. Was sagen Sie?",
+            "options": [
+              "Ich möchte dieses 20-seitige Dokument bitte beidseitig in Farbe drucken. Wie lange würde das dauern?",
+              "Ich will das kopieren.",
+              "Können Sie das drucken?",
+              "Machen Sie das beidseitig."
+            ],
+            "correctAnswer": "Ich möchte dieses 20-seitige Dokument bitte beidseitig in Farbe drucken. Wie lange würde das dauern?",
+            "explanation": "Diese Anfrage enthält alle wichtigen Details und fragt nach der Bearbeitungszeit."
+          },
+          {
+            "question": "Bei der Reinigung: Ein Kleidungsstück ist beschädigt. Wie beschweren Sie sich?",
+            "options": [
+              "Entschuldigung, aber mein Sakko hat nach der Reinigung einen Riss am Ärmel. Das war vorher nicht da.",
+              "Sie haben mein Sakko kaputt gemacht.",
+              "Das ist beschädigt.",
+              "Ich will mein Geld zurück."
+            ],
+            "correctAnswer": "Entschuldigung, aber mein Sakko hat nach der Reinigung einen Riss am Ärmel. Das war vorher nicht da.",
+            "explanation": "Diese Beschwerde ist höflich und beschreibt den Schaden genau."
+          },
+          {
+            "question": "Im Handyladen: Sie brauchen eine neue SIM-Karte. Was sagen Sie?",
+            "options": [
+              "Guten Tag, ich brauche eine neue SIM-Karte, weil meine alte nicht mehr funktioniert. Können Sie mir dabei helfen?",
+              "Meine SIM ist kaputt.",
+              "Ich will eine neue Karte.",
+              "Haben Sie SIM-Karten?"
+            ],
+            "correctAnswer": "Guten Tag, ich brauche eine neue SIM-Karte, weil meine alte nicht mehr funktioniert. Können Sie mir dabei helfen?",
+            "explanation": "Diese Anfrage erklärt das Problem und bittet höflich um Hilfe."
+          },
+          {
+            "question": "Im Büro: Der Drucker funktioniert nicht. Wie informieren Sie den IT-Support?",
+            "options": [
+              "Der Drucker im zweiten Stock zeigt eine Fehlermeldung und druckt keine Dokumente mehr. Können Sie bitte vorbeikommen?",
+              "Drucker kaputt.",
+              "Wir brauchen Hilfe beim Drucker.",
+              "Können Sie den Drucker reparieren?"
+            ],
+            "correctAnswer": "Der Drucker im zweiten Stock zeigt eine Fehlermeldung und druckt keine Dokumente mehr. Können Sie bitte vorbeikommen?",
+            "explanation": "Diese Meldung enthält den Standort, das Problem und eine Bitte um Hilfe."
+          },
+          {
+            "question": "Im Restaurant: Sie haben eine Reservierung, aber Ihr Tisch ist noch besetzt. Was sagen Sie?",
+            "options": [
+              "Entschuldigung, wir haben für 19 Uhr einen Tisch für vier Personen reserviert. Wie lange müssen wir etwa warten?",
+              "Wo ist unser Tisch?",
+              "Wir wollen essen.",
+              "Der Tisch ist besetzt."
+            ],
+            "correctAnswer": "Entschuldigung, wir haben für 19 Uhr einen Tisch für vier Personen reserviert. Wie lange müssen wir etwa warten?",
+            "explanation": "Diese Anfrage ist höflich, erwähnt die Reservierung und fragt nach der Wartezeit."
+          },
+          {
+            "question": "Im Schwimmbad: Sie haben Ihre Badesachen vergessen. Wie fragen Sie nach Leihsachen?",
+            "options": [
+              "Entschuldigung, kann man hier Badehosen ausleihen? Ich habe meine leider vergessen.",
+              "Ich brauche Badesachen.",
+              "Haben Sie Badehosen?",
+              "Ich will schwimmen gehen."
+            ],
+            "correctAnswer": "Entschuldigung, kann man hier Badehosen ausleihen? Ich habe meine leider vergessen.",
+            "explanation": "Diese Frage ist höflich und erklärt die Situation."
+          },
+          {
+            "question": "Im Kino: Jemand spricht ständig während des Films. Was sagen Sie?",
+            "options": [
+              "Entschuldigung, könnten Sie bitte etwas leiser sein? Ich kann den Film kaum verstehen.",
+              "Seien Sie still!",
+              "Ich will den Film sehen!",
+              "Hören Sie auf zu reden!"
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie bitte etwas leiser sein? Ich kann den Film kaum verstehen.",
+            "explanation": "Diese Bitte ist höflich formuliert und erklärt das Problem."
+          }, {
+            "question": "Im Café: Sie möchten einen Cappuccino bestellen. Was sagen Sie?",
+            "options": [
+              "Guten Tag, ich hätte gerne einen Cappuccino, bitte.",
+              "Geben Sie mir einen Cappuccino.",
+              "Ich will Cappuccino.",
+              "Kaffee, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich hätte gerne einen Cappuccino, bitte.",
+            "explanation": "Die höfliche und vollständige Bestellung erleichtert dem Barista die Zubereitung."
+          },
+          {
+            "question": "Im Restaurant: Sie möchten einen Tisch reservieren. Wie formulieren Sie Ihre Anfrage?",
+            "options": [
+              "Guten Tag, ich möchte einen Tisch für zwei Personen reservieren, bitte.",
+              "Ich will einen Tisch.",
+              "Reservieren Sie einen Tisch für mich.",
+              "Tisch reservieren."
+            ],
+            "correctAnswer": "Guten Tag, ich möchte einen Tisch für zwei Personen reservieren, bitte.",
+            "explanation": "Die Anfrage enthält alle nötigen Details und ist höflich formuliert."
+          },
+          {
+            "question": "Im Café: Sie fragen nach der Tagesempfehlung. Wie stellen Sie Ihre Frage?",
+            "options": [
+              "Entschuldigung, was ist heute Ihre Tagesempfehlung?",
+              "Was empfehlen Sie?",
+              "Sag mal, was geht heute?",
+              "Ich will die Empfehlung wissen."
+            ],
+            "correctAnswer": "Entschuldigung, was ist heute Ihre Tagesempfehlung?",
+            "explanation": "Die Frage ist freundlich und konkret, was eine hilfreiche Antwort ermöglicht."
+          },
+          {
+            "question": "Im Restaurant: Sie möchten das Menü erläutert bekommen. Wie fragen Sie?",
+            "options": [
+              "Könnten Sie mir bitte das Menü erklären und Ihre Empfehlungen nennen?",
+              "Was steht auf der Karte?",
+              "Erklären Sie mir das Menü.",
+              "Was soll ich essen?"
+            ],
+            "correctAnswer": "Könnten Sie mir bitte das Menü erklären und Ihre Empfehlungen nennen?",
+            "explanation": "Die ausführliche Anfrage signalisiert Interesse und ermöglicht eine umfassende Beratung."
+          },
+          {
+            "question": "Im Restaurant: Das Essen kommt zu langsam. Wie äußern Sie Ihr Anliegen höflich?",
+            "options": [
+              "Entschuldigen Sie, könnten Sie bitte nachfragen, wann unser Essen kommt?",
+              "Warum dauert das Essen so lange?",
+              "Mein Essen kommt nicht schnell genug.",
+              "Wo bleibt mein Essen?"
+            ],
+            "correctAnswer": "Entschuldigen Sie, könnten Sie bitte nachfragen, wann unser Essen kommt?",
+            "explanation": "Die höfliche Nachfrage vermeidet Missverständnisse und wirkt respektvoll."
+          },
+          {
+            "question": "Im Fastfood-Restaurant: Sie möchten Ihre Bestellung ändern. Wie formulieren Sie das?",
+            "options": [
+              "Entschuldigung, könnten Sie bitte meine Bestellung ändern? Ich hätte gerne anstatt Pommes einen Salat.",
+              "Ändern Sie meine Bestellung.",
+              "Ich will etwas anderes.",
+              "Ändern Sie das bitte."
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie bitte meine Bestellung ändern? Ich hätte gerne anstatt Pommes einen Salat.",
+            "explanation": "Die detaillierte und höfliche Formulierung erleichtert dem Personal die Anpassung der Bestellung."
+          },
+          {
+            "question": "Im Café: Sie fragen nach veganen Optionen. Was sagen Sie?",
+            "options": [
+              "Guten Tag, haben Sie vegane Speisen oder Getränke im Angebot?",
+              "Ist hier was Veganes?",
+              "Ich esse vegan, was gibt es?",
+              "Gibt es vegane Sachen?"
+            ],
+            "correctAnswer": "Guten Tag, haben Sie vegane Speisen oder Getränke im Angebot?",
+            "explanation": "Die Frage ist höflich und präzise, sodass das Personal gezielt beraten kann."
+          },
+          {
+            "question": "Im Restaurant: Sie möchten ein Dessert bestellen. Wie formulieren Sie Ihre Bestellung?",
+            "options": [
+              "Ich hätte gerne das Schokoladenmousse als Dessert, bitte.",
+              "Geben Sie mir ein Dessert.",
+              "Ich will etwas Süßes.",
+              "Dessert, bitte."
+            ],
+            "correctAnswer": "Ich hätte gerne das Schokoladenmousse als Dessert, bitte.",
+            "explanation": "Die spezifische Bestellung macht es dem Servicepersonal leicht, das gewünschte Dessert zu servieren."
+          },
+          {
+            "question": "Im Café: Sie möchten zusätzlichen Zucker zu Ihrem Kaffee. Wie bitten Sie darum?",
+            "options": [
+              "Entschuldigen Sie, könnten Sie bitte extra Zucker zu meinem Kaffee hinzufügen?",
+              "Mehr Zucker in meinen Kaffee.",
+              "Geben Sie mir Zucker.",
+              "Ich will Zucker im Kaffee."
+            ],
+            "correctAnswer": "Entschuldigen Sie, könnten Sie bitte extra Zucker zu meinem Kaffee hinzufügen?",
+            "explanation": "Eine höfliche Bitte mit klarer Anweisung vermeidet Verwirrung."
+          },
+          {
+            "question": "Im Restaurant: Sie fragen nach einer Weinempfehlung. Wie äußern Sie Ihre Bitte?",
+            "options": [
+              "Könnten Sie mir bitte eine Weinempfehlung zu meinem Gericht geben?",
+              "Welchen Wein schlagen Sie vor?",
+              "Ich brauche Wein.",
+              "Wein, bitte."
+            ],
+            "correctAnswer": "Könnten Sie mir bitte eine Weinempfehlung zu meinem Gericht geben?",
+            "explanation": "Die Frage ist höflich und zeigt, dass Sie an einer fundierten Empfehlung interessiert sind."
+          },
+          {
+            "question": "Im Café: Sie möchten nach dem WLAN-Passwort fragen. Wie formulieren Sie Ihre Anfrage?",
+            "options": [
+              "Entschuldigung, könnten Sie mir bitte das WLAN-Passwort nennen?",
+              "Was ist das WLAN-Passwort?",
+              "Geben Sie mir das Passwort.",
+              "Wie verbinde ich mich mit dem Internet?"
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie mir bitte das WLAN-Passwort nennen?",
+            "explanation": "Die höfliche Frage ermöglicht eine schnelle Auskunft ohne Umstände."
+          },
+          {
+            "question": "Im Restaurant: Sie bitten um die Rechnung. Wie sagen Sie das?",
+            "options": [
+              "Entschuldigung, könnten Sie uns bitte die Rechnung bringen?",
+              "Die Rechnung, bitte.",
+              "Ich will zahlen.",
+              "Rechnung, bitte."
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie uns bitte die Rechnung bringen?",
+            "explanation": "Die höfliche Bitte sorgt für einen reibungslosen Abschluss des Essens."
+          },
+          {
+            "question": "Im Restaurant: Ihr Getränk ist fast leer und Sie wünschen eine Nachfüllung. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, mein Getränk ist fast leer. Könnte ich bitte eine Nachfüllung erhalten?",
+              "Füllen Sie das Getränk auf.",
+              "Ich brauche mehr von meinem Getränk.",
+              "Mehr trinken bitte."
+            ],
+            "correctAnswer": "Entschuldigung, mein Getränk ist fast leer. Könnte ich bitte eine Nachfüllung erhalten?",
+            "explanation": "Die klare und höfliche Formulierung erleichtert dem Servicepersonal das Verständnis."
+          },
+          {
+            "question": "Im Café: Sie informieren sich über Allergene im Gebäck. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, enthält dieses Gebäck Nüsse oder Milchprodukte, da ich Allergiker bin?",
+              "Gibt es Allergene in diesem Gebäck?",
+              "Ich bin allergisch, was ist in diesem Gebäck?",
+              "Ist das allergenfrei?"
+            ],
+            "correctAnswer": "Entschuldigung, enthält dieses Gebäck Nüsse oder Milchprodukte, da ich Allergiker bin?",
+            "explanation": "Die detaillierte Nachfrage hilft, gesundheitliche Risiken zu vermeiden."
+          },
+          {
+            "question": "Im Restaurant: Sie haben Laktoseintoleranz und suchen eine Alternative. Wie fragen Sie?",
+            "options": [
+              "Ich habe Laktoseintoleranz. Könnten Sie mir bitte eine laktosefreie Alternative zu diesem Gericht empfehlen?",
+              "Haben Sie laktosefreie Speisen?",
+              "Ich kann keine Milchprodukte essen, was ist da?",
+              "Gibt es etwas ohne Laktose?"
+            ],
+            "correctAnswer": "Ich habe Laktoseintoleranz. Könnten Sie mir bitte eine laktosefreie Alternative zu diesem Gericht empfehlen?",
+            "explanation": "Die genaue Angabe Ihrer Bedürfnisse führt zu einer passenden Empfehlung."
+          },
+          {
+            "question": "Im Café: Sie möchten einen grünen Tee mit weniger Zucker bestellen. Wie formulieren Sie das?",
+            "options": [
+              "Guten Tag, ich hätte gerne einen grünen Tee, bitte mit nur einem halben Löffel Zucker.",
+              "Tee, aber weniger Zucker.",
+              "Ich will weniger Zucker im Tee.",
+              "Tee ohne viel Zucker."
+            ],
+            "correctAnswer": "Guten Tag, ich hätte gerne einen grünen Tee, bitte mit nur einem halben Löffel Zucker.",
+            "explanation": "Die Bestellung ist präzise und berücksichtigt Ihre Vorlieben."
+          },
+          {
+            "question": "Im Restaurant: Sie möchten wissen, ob ein Gericht scharf gewürzt ist. Wie fragen Sie?",
+            "options": [
+              "Entschuldigung, könnten Sie mir bitte sagen, ob dieses Gericht scharf gewürzt ist?",
+              "Ist das Gericht scharf?",
+              "Wie würzig ist das Essen?",
+              "Ist es scharf?"
+            ],
+            "correctAnswer": "Entschuldigung, könnten Sie mir bitte sagen, ob dieses Gericht scharf gewürzt ist?",
+            "explanation": "Die höfliche Frage ermöglicht es Ihnen, das Essen nach Ihrem Geschmack auszuwählen."
+          },
+          {
+            "question": "Im Café: Sie möchten einen Espresso bestellen. Was sagen Sie?",
+            "options": [
+              "Guten Tag, ich hätte gerne einen Espresso, bitte.",
+              "Einen Espresso.",
+              "Geben Sie mir einen Espresso.",
+              "Espresso, bitte."
+            ],
+            "correctAnswer": "Guten Tag, ich hätte gerne einen Espresso, bitte.",
+            "explanation": "Die vollständige und höfliche Bestellung erleichtert dem Barista die Zubereitung."
+          },
+          {
+            "question": "Im Restaurant: Sie benötigen einen Kinderstuhl für Ihr Kind. Wie formulieren Sie Ihre Bitte?",
+            "options": [
+              "Guten Tag, könnten Sie bitte einen Kinderstuhl für mein Kind bereitstellen?",
+              "Ich brauche einen Stuhl für mein Kind.",
+              "Kinderstuhl, bitte.",
+              "Haben Sie einen Kinderstuhl?"
+            ],
+            "correctAnswer": "Guten Tag, könnten Sie bitte einen Kinderstuhl für mein Kind bereitstellen?",
+            "explanation": "Die detaillierte und höfliche Anfrage stellt sicher, dass an Ihre Bedürfnisse gedacht wird."
+          },
+          {
+            "question": "Im Café: Sie fragen nach glutenfreien Backwaren. Wie äußern Sie Ihre Frage?",
+            "options": [
+              "Entschuldigung, bieten Sie auch glutenfreie Backwaren an?",
+              "Haben Sie glutenfreie Sachen?",
+              "Gibt es glutenfreie Backwaren?",
+              "Glutenfrei, bitte."
+            ],
+            "correctAnswer": "Entschuldigung, bieten Sie auch glutenfreie Backwaren an?",
+            "explanation": "Die höfliche Nachfrage hilft Ihnen, passende Produkte zu finden, die Ihren Ernährungsbedürfnissen entsprechen."
           }
       
     ]

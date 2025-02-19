@@ -6,6 +6,8 @@ import { AlertCircle, CheckCircle, ArrowLeft, ArrowRight, List, BookOpen, Bookma
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select.jsx";
 import grammarQuestions from '@/data/grammar.json';
 import vocabularyQuestions from '@/data/vocabulary.json';
+import expressionsQuestions from '@/data/expressions.json';
+import situationsQuestions from '@/data/situations.json';
 
 const GermanQuiz = () => {
   const categories = {
