@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card.jsx';
 import { Button } from '@/components/ui/button.jsx';
 import { AlertCircle, CheckCircle, ArrowLeft, ArrowRight, List, BookOpen, Bookmark, X } from 'lucide-react';
@@ -105,7 +105,7 @@ const GermanQuiz = () => {
                   <Button
                     key={idx}
                     variant="outline"
-                    className={`text-left justify-start h-auto py-2 ${
+                    className={`text-left justify-start h-auto py-2 px-4 border border-slate-200 ${
                       userAnswers[`${catKey}-${idx}`] ? 'border-green-500' : ''
                     } ${bookmarkedQuestions[`${catKey}-${idx}`] ? 'bg-yellow-50' : ''}`}
                     onClick={() => {
@@ -138,14 +138,14 @@ const GermanQuiz = () => {
           <Button
             variant={studyMode === 'quiz' ? 'default' : 'outline'}
             onClick={() => setStudyMode('quiz')}
-            className="flex-1"
+            className="flex-1 border border-slate-200"
           >
             <BookOpen className="mr-2 h-4 w-4" /> Quiz Mode
           </Button>
           <Button
             variant={studyMode === 'study' ? 'default' : 'outline'}
             onClick={() => setStudyMode('study')}
-            className="flex-1"
+            className="flex-1 border border-slate-200"
           >
             <List className="mr-2 h-4 w-4" /> Study Mode
           </Button>
@@ -155,14 +155,14 @@ const GermanQuiz = () => {
           <Button 
             variant="outline" 
             onClick={() => setShowQuestionList(true)}
-            className="flex-1"
+            className="flex-1 border border-slate-200"
           >
             <List className="mr-2 h-4 w-4" /> Show All Questions
           </Button>
           <Button 
             variant="outline" 
             onClick={toggleBookmark}
-            className={`flex-1 ${bookmarkedQuestions[`${currentCategory}-${currentQuestion}`] ? 'bg-yellow-50' : ''}`}
+            className={`flex-1 border border-slate-200 ${bookmarkedQuestions[`${currentCategory}-${currentQuestion}`] ? 'bg-yellow-50' : ''}`}
           >
             <Bookmark className="mr-2 h-4 w-4" /> 
             {bookmarkedQuestions[`${currentCategory}-${currentQuestion}`] ? 'Bookmarked' : 'Bookmark'}
@@ -170,7 +170,7 @@ const GermanQuiz = () => {
         </div>
 
         <Select value={currentCategory} onValueChange={handleCategoryChange}>
-          <SelectTrigger className="w-full">
+          <SelectTrigger className="w-full border border-slate-200">
             <SelectValue placeholder="Select category" />
           </SelectTrigger>
           <SelectContent>
@@ -200,16 +200,17 @@ const GermanQuiz = () => {
                   <Button
                     key={index}
                     onClick={() => !showResult && handleAnswerSelect(option)}
-                    className={`w-full justify-start text-left h-auto py-3 ${
+                    className={`w-full justify-start text-left h-auto py-3 px-4 border ${
                       showResult
                         ? option === currentQuestions[currentQuestion].correctAnswer
-                          ? 'bg-green-500 hover:bg-green-600'
+                          ? 'bg-green-500 hover:bg-green-600 border-green-600 text-white'
                           : option === userAnswers[`${currentCategory}-${currentQuestion}`]
-                          ? 'bg-red-500 hover:bg-red-600'
-                          : 'bg-gray-100 hover:bg-gray-200'
-                        : ''
+                          ? 'bg-red-500 hover:bg-red-600 border-red-600 text-white'
+                          : 'bg-white hover:bg-slate-50 border-slate-200'
+                        : 'bg-white hover:bg-slate-50 border-slate-200'
                     }`}
                     disabled={showResult}
+                    variant="outline"
                   >
                     {option}
                     {showResult && option === currentQuestions[currentQuestion].correctAnswer && (
@@ -225,7 +226,7 @@ const GermanQuiz = () => {
 
               {showResult && (
                 <div className="mt-4 space-y-4">
-                  <div className="p-4 bg-gray-100 rounded-lg">
+                  <div className="p-4 bg-slate-50 rounded-lg border border-slate-200">
                     <p className="font-medium">Explanation:</p>
                     <p>{currentQuestions[currentQuestion].explanation}</p>
                   </div>
@@ -238,14 +239,16 @@ const GermanQuiz = () => {
             <Button 
               onClick={goToPrevious}
               disabled={currentQuestion === 0}
-              className="flex-1"
+              className="flex-1 border border-slate-200"
+              variant="outline"
             >
               <ArrowLeft className="mr-2 h-4 w-4" /> Previous
             </Button>
             <Button 
               onClick={goToNext}
               disabled={!currentQuestions || currentQuestion === currentQuestions.length - 1}
-              className="flex-1"
+              className="flex-1 border border-slate-200"
+              variant="outline"
             >
               Next <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -253,7 +256,8 @@ const GermanQuiz = () => {
 
           <Button 
             onClick={handleFinishTest}
-            className="w-full mt-4"
+            className="w-full mt-4 border border-slate-200"
+            variant="default"
           >
             Finish Test
           </Button>
