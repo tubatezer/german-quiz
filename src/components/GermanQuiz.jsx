@@ -18,11 +18,12 @@ const GermanQuiz = () => {
     reading: "Leseverstehen"
   };
 
+
   const [questions, setQuestions] = useState({
     grammar: grammarQuestions.grammar,
     vocabulary: vocabularyQuestions.vocabulary,
-    expressions: [],
-    situations: [],
+    expressions: expressionsQuestions.expressions,
+    situations: situationsQuestions.situations,
     reading: []
   });
 
